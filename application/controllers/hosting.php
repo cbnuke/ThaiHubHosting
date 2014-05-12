@@ -10,7 +10,7 @@ class Hosting extends CI_Controller {
 	}
 	public function index() {
 		$data = array ();
-		$this->m_template->set_Content ( 'home/main', $data );
+		$this->m_template->set_Content ( 'hosting/main', $data );
 		$this->m_template->showTemplate ();
 	}
 }

@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 Class m_template extends CI_Model{
-	private $title = 'THAIHUBHOSTING.com ไทยฮับโฮสติ้ง เว็บโอสติ้งคุณภาพสูงสำหรับคนไทย';
+	private $title = 'ThaiHubHosting เว็บโอสติ้งคุณภาพสูง สำหรับคนไทย';
 	private $view_name = NULL;
 	private $set_data = NULL;
 	private $permission = "ALL";

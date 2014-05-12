@@ -12,6 +12,7 @@ $('.carousel').carousel({interval: 4000});
 	</ol>
 	<div class="carousel-inner">
 		<div class="item active">
+			<?=img('thaihubhosting.png',array('class'=>'img-responsive'))?>
 			<img src="data:image/png;base64,"
 				data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide"
 				alt="First slide">

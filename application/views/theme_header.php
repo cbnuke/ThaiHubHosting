@@ -8,32 +8,31 @@
 <meta name="description"
 	content="เว็บโฮสติ้งคุณภาพสูง ที่ได้รับการออกแบบติดตั้งและผู้แลจากผู้เชี่ยวชาญตลอด 24 ชั่วโมง">
 <meta name="author" content="CBNUKE">
-<!--<link rel="shortcut icon" href="ico/favicon.png">-->
 
 <title><?php echo $title;?></title>
-
-<!-- Bootstrap core CSS -->
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144"
+	href="<?=asset_url()?>img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="<?=asset_url()?>img/favicon.ico">
+<!-- Bootstrap core CSS ans JS -->
     <?php echo css('bootstrap.css');?>
-<!-- Just for debugging purposes. Don't actually copy this line! -->
-<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-
-<!-- Custom styles for this template -->
-    <?php echo css('carousel.css');?>
+    <?php echo css('pace.css');?>
     <?php echo css('theme.css');?>
- 
+    <?php echo css('label.min.css');?>
+    <?php echo js('pace.min.js');?>
  	<?php echo js('jquery.js');?>
  	<?php echo js('bootstrap.js');?>
- 	<?php echo js('holder.js');?>    
-  </head>
+ 	<?php echo js('docs.min.js');?>
+ 	
+<script type="text/javascript">
+ 	jQuery(window).load(function(){
+  	  $('.content-wrap').fadeIn(1500);
+    });  
+</script>
+</head>
 <body>
 	<!-- Fixed navbar -->
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="navbar navbar-fixed-top th-nav" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
@@ -42,7 +41,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<?php echo anchor('home','THAIHUBHOSTING',array('class'=>'navbar-brand'));?>
+				<?php echo anchor('home',img('apple-touch-icon-144-precomposed.png',array('height'=>'32px','style'=>'margin-top:-6px;')).'<span class="thai">Thai</span><span class="hub">Hub</span><span class="hosting">Hosting</span>',array('class'=>'navbar-brand'));?>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -60,8 +59,10 @@
 			<!--/.nav-collapse -->
 		</div>
 	</div>
+	
 	<!-- container -->
-	<div class="container marketing">
+	<div class="content-wrap">
+	<div class="container">
 		<?php
 		
 		if (isset ( $debug )) {
