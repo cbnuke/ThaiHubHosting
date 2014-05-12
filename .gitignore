@@ -12,3 +12,7 @@
 .settings/org.eclipse.wst.jsdt.ui.superType.container
 
 .settings/org.eclipse.wst.jsdt.ui.superType.name
+/nbproject/private/
+nbproject/project.properties
+
+nbproject/project.xml
