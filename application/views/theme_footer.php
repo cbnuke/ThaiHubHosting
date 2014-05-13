@@ -1,7 +1,7 @@
 <hr>
 <footer>
-<p class="pull-right"><a href="#" id="top"><span class="glyphicon glyphicon-chevron-up"></span> Back to top</a></p>
-<p>&copy; 2014 Thaihubhosting, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+<p class="pull-right"><a href="#" id="top"><span class="glyphicon glyphicon-chevron-up"></span> กลับไปข้างบน</a></p>
+<p>&copy; 2014 Thaihubhosting.com,  &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 </div>
 </div>

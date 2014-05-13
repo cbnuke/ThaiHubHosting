@@ -1,133 +1,145 @@
 body {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 .content-wrap {
-	display: none;
+    display: none;
 }
 
 .th-nav {
-	background-image: -webkit-linear-gradient(top, #fff 0%, #fff 100%);
-	background-image: linear-gradient(to bottom, #fff 0%, #fff 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',
-		endColorstr='#fff8f8f8', GradientType=0);
-	filter: progid:DXImageTransform.Microsoft.gradient(enabled=          
-		             false);
-	background-repeat: repeat-x;
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px
-		rgba(0, 0, 0, .075);
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px
-		rgba(0, 0, 0, .075);
+    background-image: -webkit-linear-gradient(top, #fff 0%, #fff 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',
+        endColorstr='#fff8f8f8', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=          
+        false);
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px
+        rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px
+        rgba(0, 0, 0, .075);
 }
 
 .th-nav .navbar-nav>.active>a {
-	background-image: -webkit-linear-gradient(top, #F1F1F1 0%, #FBFBFB 100%);
-	background-image: linear-gradient(to bottom, #F1F1F1 0%, #FBFBFB 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF1F1F1',
-		endColorstr='#FFFBFBFB', GradientType=0);
-	background-repeat: repeat-x;
-	-webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
-	box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+    background-image: -webkit-linear-gradient(top, #F1F1F1 0%, #FBFBFB 100%);
+    background-image: linear-gradient(to bottom, #F1F1F1 0%, #FBFBFB 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF1F1F1',
+        endColorstr='#FFFBFBFB', GradientType=0);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 3px 9px rgba(0, 0, 0, .075);
 }
 
 .th-nav .navbar-brand,.th-nav .navbar-nav>li>a {
-	color: #29d;
-	font-weight: 500
+    color: #29d;
+    font-weight: 500
 }
 
 .th-nav .navbar-toggle .icon-bar {
-	background-color: #29d
+    background-color: #29d
 }
 
 .th-nav .navbar-header .navbar-toggle {
-	border-color: #fff
+    border-color: #fff
 }
 
 .th-nav .navbar-header .navbar-toggle:hover,.th-nav .navbar-header .navbar-toggle:focus
-	{
-	background-color: #f9f9f9;
-	border-color: #f9f9f9
+{
+    background-color: #f9f9f9;
+    border-color: #f9f9f9
 }
 
 .thai {
-	color: #000;
-	margin-left: -6px;
-	font-size: 20px;
-	line-height: 22px;
+    color: #000;
+    margin-left: -6px;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .hub {
-	color: #29d;
-	font-size: 20px;
-	line-height: 22px;
+    color: #29d;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .hosting {
-	color: #e78720;
-	font-size: 20px;
-	line-height: 22px;
+    color: #e78720;
+    font-size: 20px;
+    line-height: 22px;
 }
 
 .th-callout-danger {
-	background-color: #fdf7f7;
-	border-color: #d9534f
+    background-color: #fdf7f7;
+    border-color: #d9534f
 }
 
 .th-callout-warning {
-	background-color: #fcf8f2;
-	border-color: #f0ad4e
+    background-color: #fcf8f2;
+    border-color: #f0ad4e
 }
 
 .th-callout-info {
-	background-color: #f4f8fa;
-	border-color: #5bc0de
+    background-color: #f4f8fa;
+    border-color: #5bc0de
 }
 
 .th-callout-success {
-	background-color: #F4FFF2;
-	border-color: #5BCE44;
+    background-color: #F4FFF2;
+    border-color: #5BCE44;
 }
 
 .th-docs-header {
-	position: relative;
-	margin-top: 2px;
-	margin-bottom: 18px;
-	padding: 30px 15px;
-	color: #d7f2ff;
-	text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
-	background-color: #3fb0e7;
-	background-image: -webkit-linear-gradient(top, #3fb0e7 0, #49b7ee 100%);
-	background-image: linear-gradient(to bottom, #3fb0e7 0, #49b7ee 100%);
-	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fb0e7',
-		endColorstr='#49b7ee', GradientType=0);
-	padding: 30px 50px;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 18px;
+    padding: 30px 15px;
+    color: #d7f2ff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-color: #3fb0e7;
+    background-image: -webkit-linear-gradient(top, #3fb0e7 0, #49b7ee 100%);
+    background-image: linear-gradient(to bottom, #3fb0e7 0, #49b7ee 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fb0e7',
+        endColorstr='#49b7ee', GradientType=0);
+    padding: 30px 50px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
 }
-
+.th-docs-feature {
+    padding: 10px 0px;
+    background: #efefef;
+    background: -moz-linear-gradient(top,  #efefef 0%, #ffffff 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(99%,#ffffff));
+    background: -webkit-linear-gradient(top,  #efefef 0%,#ffffff 99%);
+    background: -o-linear-gradient(top,  #efefef 0%,#ffffff 99%);
+    background: -ms-linear-gradient(top,  #efefef 0%,#ffffff 99%);
+    background: linear-gradient(to bottom,  #efefef 0%,#ffffff 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efefef', endColorstr='#ffffff',GradientType=0 );
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.075) inset;
+}
 @media ( min-width :768px) {
-	.th-docs-header h1 {
-		font-size: 40px;
-	}
+    .th-docs-header h1 {
+        font-size: 40px;
+    }
 }
 
 @media ( min-width :992px) {
-	.th-docs-header h1 {
-		font-size: 50px;
-	}
+    .th-docs-header h1 {
+        font-size: 50px;
+    }
 }
 
 .th-docs-header h1 {
-	line-height: 1;
-	color: #FFF;
+    line-height: 1;
+    color: #FFF;
 }
 
 .th-docs-header h1 small {
-	color: #eaf3f7;
+    color: #eaf3f7;
 }
 
 .th-docs-header p {
-	color: #d7f2ff;
+    color: #d7f2ff;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -135,161 +147,161 @@ body {
 
 /* Carousel base class */
 .carousel {
-	height: 500px;
-	margin-bottom: 60px;
+    height: 500px;
+    margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-	z-index: 10;
+    z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-	height: 500px;
-	background-color: #3fb0e7;
-	background-image: -webkit-linear-gradient(top, #3fb0e7 0, #49b7ee 100%);
-	background-image: linear-gradient(to bottom, #3fb0e7 0, #49b7ee 100%);
-	background-repeat: repeat-x;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fb0e7',
-		endColorstr='#49b7ee', GradientType=0);
+    height: 500px;
+    background-color: #3fb0e7;
+    background-image: -webkit-linear-gradient(top, #3fb0e7 0, #49b7ee 100%);
+    background-image: linear-gradient(to bottom, #3fb0e7 0, #49b7ee 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fb0e7',
+        endColorstr='#49b7ee', GradientType=0);
 }
 
 .carousel-inner>.item>img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
 }
 
 /* --- Plans ---------------------------- */
 .my_planHeader {
-	text-align: center;
-	color: white;
-	padding-top: 0.2em;
-	padding-bottom: 0.2em;
+    text-align: center;
+    color: white;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 .my_planTitle {
-	font-size: 2em;
-	font-weight: bold;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .my_planPrice {
-	font-size: 1.4em;
-	font-weight: bold;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 .my_planDuration {
-	margin-top: -0.1em;
+    margin-top: -0.1em;
 }
 
 @media ( max-width : 768px) {
-	.my_planTitle {
-		font-size: small;
-	}
+    .my_planTitle {
+        font-size: small;
+    }
 }
 /* --- Features ------------------------- */
 .my_feature {
-	line-height: 2.8em;
+    line-height: 2.8em;
 }
 
 @media ( max-width : 768px) {
-	.my_feature {
-		text-align: center
-	}
+    .my_feature {
+        text-align: center
+    }
 }
 
 .my_featureRow {
-	margin-top: 0.2em;
-	margin-bottom: 0.2em;
-	border: 0.1em solid rgb(163, 163, 163);
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    border: 0.1em solid rgb(163, 163, 163);
 }
 
 .my_planFeature .glyphicon {
-	padding: 5px;
-	font-size: 18px;
-	color: #fff;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	border-radius: 100px;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
 }
 
 .green {
-	background: #9dd53a;
+    background: #9dd53a;
 }
 
 .red {
-	background: #f85032;
+    background: #f85032;
 }
 .text {
-	font-size: 20px;
-	color: #333;
+    font-size: 20px;
+    color: #333;
 }
 /* --- Plan 1 --------------------------- */
 .my_plan1 {
-	background: #d6e5e2;
+    background: #d6e5e2;
 }
 
 .my_planHeader.my_plan1 a {
-	background: #c0392b;
-	color: white;
+    background: #c0392b;
+    color: white;
 }
 
 .my_planHeader.my_plan1 {
-	background: #16a085;
-	border-bottom: thick solid #14937a;
+    background: #16a085;
+    border-bottom: thick solid #14937a;
 }
 
 /* --- Plan 2 --------------------------- */
 .my_plan2 {
-	background: #efe5d6;
+    background: #efe5d6;
 }
 
 .my_planHeader.my_plan2 a {
-	background: #16a085;
-	color: white;
+    background: #16a085;
+    color: white;
 }
 
 .my_planHeader.my_plan2 {
-	background: #f39c12;
-	border-bottom: thick solid #cd8109;
+    background: #f39c12;
+    border-bottom: thick solid #cd8109;
 }
 
 /* --- Plan 3 --------------------------- */
 .my_plan3 {
-	background: #e9dad9;
+    background: #e9dad9;
 }
 
 .my_planHeader.my_plan3 a {
-	background: #2980b9;
-	color: white;
+    background: #2980b9;
+    color: white;
 }
 
 .my_planHeader.my_plan3 {
-	background: #c0392b;
-	border-bottom: thick solid #a12f23;
+    background: #c0392b;
+    border-bottom: thick solid #a12f23;
 }
 /* --- Plan 4 --------------------------- */
 .my_plan4 {
-	background: #d8e2e8;
+    background: #d8e2e8;
 }
 
 .my_planHeader.my_plan4 a {
-	background: #f39c12;
-	color: white;
+    background: #f39c12;
+    color: white;
 }
 
 .my_planHeader.my_plan4 {
-	background: #2980b9;
-	border-bottom: thick solid #1d6391;
+    background: #2980b9;
+    border-bottom: thick solid #1d6391;
 }
 
 .my_planFeature {
-	text-align: center;
-	font-size: 2em;
+    text-align: center;
+    font-size: 2em;
 }
 
 .my_planFeature i.my_check {
-	color: green;
+    color: green;
 }

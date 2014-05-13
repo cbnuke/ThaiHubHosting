@@ -174,7 +174,7 @@ a.ui.label:hover,a.ui.labels .label:hover {
 .ui.ribbon.label {
 	position: relative;
 	margin: 0 .2em;
-	left: -2rem;
+	left: -3rem;
 	padding-left: 2rem;
 	border-radius: 0 4px 4px 0;
 	border-color: rgba(0, 0, 0, .15)
