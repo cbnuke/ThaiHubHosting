@@ -23,10 +23,12 @@
         <?php echo js('jquery.js'); ?>
         <?php echo js('bootstrap.js'); ?>
         <?php echo js('docs.min.js'); ?>
+        <?php echo js('jquery.parallax-1.1.3.js'); ?>
 
         <script type="text/javascript">
             jQuery(window).load(function() {
                 $('.content-wrap').fadeIn(1500);
+                $('#intro').parallax("50%", 0.1);
             });
         </script>
     </head>

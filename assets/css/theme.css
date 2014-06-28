@@ -305,3 +305,10 @@ body {
 .my_planFeature i.my_check {
     color: green;
 }
+
+#intro{
+	background:url(../img/firstBG.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	margin: 0 auto;
+	padding: 0;
+}
