@@ -89,6 +89,14 @@ body {
     border-color: #5BCE44;
 }
 
+.th-docs-hosting {
+    position: relative;
+    text-shadow: 1px 2px 3px #666;
+    margin-top: 2px;
+    margin-bottom: 18px;
+    padding: 30px 50px;
+}
+
 .th-docs-header {
     position: relative;
     margin-top: 2px;
@@ -306,9 +314,9 @@ body {
     color: green;
 }
 
-#intro{
-	background:url(../img/firstBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
-	margin: 0 auto;
-	padding: 0;
+#hosting_intro {
+    background:url(../img/hostingBG.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    margin: 0 auto;
+    padding: 20px 20px;
 }

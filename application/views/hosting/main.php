@@ -1,23 +1,22 @@
-<div class="th-docs-header" style="margin-bottom: 0px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>
-                    โฮสติ้งแพ็คเกจ <small>Hosting.</small>
-                </h1>
-                <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพื่อความสะดวกในการเลือกให้บริการ
-                    เราได้จัดทำรูปแบบแพ็คเกจที่อิงตามขนาดของธุรกิจ เป็น Mini Small
-                    Medium Large</p>
+<div id="hosting_intro">
+    <div class="th-docs-hosting" style="margin-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center">
+                        โฮสติ้งแพ็คเกจ <small>Hosting.</small>
+                    </h1>
+                    <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เพื่อความสะดวกในการเลือกให้บริการ
+                        เราได้จัดทำรูปแบบแพ็คเกจที่อิงตามขนาดของธุรกิจ เป็น Mini Small
+                        Medium Large</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-
-<div id="intro">
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12 thumbnail">
+            <div class="col-md-5 thumbnail">
                 <div class="caption">
                     <div class="ui raised segment">
                         <div class="ui teal ribbon label">Mini</div>
@@ -26,9 +25,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 thumbnail">
+            <div class="col-md-5 col-md-offset-2 thumbnail">
                 <div class="caption">
                     <div class="ui raised segment">
                         <div class="ui orange ribbon label">Small</div>
@@ -38,8 +35,9 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="col-md-12 thumbnail">
+            <div class="col-md-5 thumbnail">
                 <div class="caption">
                     <div class="ui raised segment">
                         <div class="ui red ribbon label">Medium</div>
@@ -49,9 +47,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12 thumbnail">
+            <div class="col-md-5 col-md-offset-2 thumbnail">
                 <div class="caption">
                     <div class="ui raised segment">
                         <div class="ui blue ribbon label">Large</div>
@@ -62,7 +58,6 @@
             </div>
         </div>
     </div>
-
 </div> <!--#intro-->
 
 <div class="th-docs-feature">
