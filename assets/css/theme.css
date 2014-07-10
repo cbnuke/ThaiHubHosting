@@ -101,7 +101,7 @@ body {
     position: relative;
     margin-top: 2px;
     margin-bottom: 18px;
-    padding: 30px 15px;
+    padding: 30px 10px;
     color: #d7f2ff;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
     background-color: #3fb0e7;
@@ -110,7 +110,19 @@ body {
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fb0e7',
         endColorstr='#49b7ee', GradientType=0);
-    padding: 30px 50px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
+}
+.th-footer {
+    margin: 0px;
+    padding: 50px 20px;
+    color: #d7f2ff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    background-color: #3fb0e7;
+    background-image: -webkit-linear-gradient(top, #3fb0e7 0, #49b7ee 100%);
+    background-image: linear-gradient(to bottom, #3fb0e7 0, #49b7ee 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3fb0e7',
+        endColorstr='#49b7ee', GradientType=0);
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.075) inset;
 }
 .th-docs-feature {

@@ -19,6 +19,7 @@
         <?php echo css('pace.css'); ?>
         <?php echo css('theme.css'); ?>
         <?php echo css('label.min.css'); ?>
+        <?php echo css('font-awesome.css'); ?>
         <?php echo js('pace.min.js'); ?>
         <?php echo js('jquery.js'); ?>
         <?php echo js('bootstrap.js'); ?>
@@ -52,22 +53,30 @@
                         if ($this->router->class == 'home') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('home', '<span class="glyphicon glyphicon-home"></span> หน้าหลัก'); ?></li>
+                        ?>><?php echo anchor('home', '<i class="fa fa-home"></i> หน้าหลัก'); ?></li>
                         <li
                         <?php
                         if ($this->router->class == 'hosting') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('hosting', '<span class="glyphicon glyphicon-hdd"></span> โฮสติ้งแพ็คเกจ'); ?></li>
+                        ?>><?php echo anchor('hosting', '<i class="fa fa-shopping-cart"></i> โฮสติ้งแพ็คเกจ'); ?></li>
                         <li
                         <?php
                         if ($this->router->class == 'features') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('features', '<span class="glyphicon glyphicon-heart"></span> คุณสมบัติของโฮสติ้ง'); ?></li>
+                        ?>><?php echo anchor('features', '<i class="fa fa-briefcase"></i> คุณสมบัติของโฮสติ้ง'); ?></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><?php echo anchor('http://customer.thaihubhosting.com/clientarea.php', '<span class="glyphicon glyphicon-user"></span> ส่วนจัดการลูกค้า') ?></li>
+                        <li><?php echo anchor('http://customer.thaihubhosting.com/clientarea.php', '<i class="fa fa-users"></i> ส่วนจัดการลูกค้า') ?></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <?= img('thai.png', array('width' => '18px')) ?> <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#"><?= img('english_us.png', array('width' => '18px')) ?> USA</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
