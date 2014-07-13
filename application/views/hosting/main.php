@@ -63,7 +63,7 @@
 <div class="th-docs-feature">
     <div class="container">
         <div class="row">
-            <div class="col-md-9 col-md-offset-3">
+            <div class="col-md-10 col-md-offset-2">
                 <div class="row">
                     <div class="col-md-3 my_planHeader my_plan1">
                         <div class="ui left corner label">
@@ -103,8 +103,8 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">พื้นที่(Storage)</div>
-            <div class="col-md-9">
+            <div class="col-md-2 my_feature">พื้นที่</div>
+            <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
                         <span class="text">1GB</span>
@@ -122,8 +122,8 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">แบนวิธ(Bandwidth)</div>
-            <div class="col-md-9">
+            <div class="col-md-2 my_feature">แบนวิธ</div>
+            <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
                         <span class="text">10GB/เดือน</span>
@@ -141,8 +141,8 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">จำนวนโดเมน(Multi Domain)</div>
-            <div class="col-md-9">
+            <div class="col-md-2 my_feature">จำนวนโดเมน</div>
+            <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
                         <span class="text">1</span>
@@ -160,8 +160,49 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">จำนวนฐานข้อมูล(Database)</div>
-            <div class="col-md-9">
+            <div class="col-md-2 my_feature">จำนวนโดเมนย่อย</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">โดเมนเนมฟรี 1 ปี</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="text">ไม่มี</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="text">1</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="text">1</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="text">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureTitle">
+            <div class="col-md-12 my_feature">Database , File , E-mail and other Feature</div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">Mysql Database</div>
+            <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
                         <span class="text">2</span>
@@ -179,122 +220,8 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">โดเมนเนมฟรี 1 ปี</div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="glyphicon glyphicon-remove red"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">PHP</div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">DirectAdmin</div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">SSL and Security</div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">SSL and Security</div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">ติดตั้ง CMS ฟรี</div>
-            <div class="col-md-9">
-                <div class="row">
-                    <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                    <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="glyphicon glyphicon-ok green"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">POP Email Accounts</div>
-            <div class="col-md-9">
+            <div class="col-md-2 my_feature">Email Account</div>
+            <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
                         <span class="text">ไม่จำกัด</span>
@@ -312,8 +239,203 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-3 my_feature">Sent Emails</div>
-            <div class="col-md-9">
+            <div class="col-md-2 my_feature">FTP Account</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">phpMyAdmin</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">Webmail</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">POP3, IMAP, SMTP</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">Google Apps</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12 my_planFeature all_plan">
+                        <span class="text">สามารถเชื่อมต่อ Google Apps กับโดเมนของท่านได้ทันที</span>
+                    </div>             
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureTitle">
+            <div class="col-md-12 my_feature">Feature</div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">Operating System</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12 my_planFeature all_plan">
+                        <span class="text">CentOS 6.5</span>
+                    </div>             
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">Language</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12 my_planFeature all_plan">
+                        <span class="text">HTML, AJAX, XML, PHP5 , SSI , Perl , CGI , Personal cgi-bin</span>
+                    </div>             
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">PHP 5.4</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">ControlPanel</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12 my_planFeature all_plan">
+                        <span class="text">Direct Admin</span>
+                    </div>             
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">SSL and Security</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">ติดตั้ง CMS ฟรี</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="glyphicon glyphicon-ok green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">POP Email Accounts</div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-3 my_planFeature my_plan1">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan2">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan3">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                    <div class="col-md-3 my_planFeature my_plan4">
+                        <span class="text">ไม่จำกัด</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row my_featureRow">
+            <div class="col-md-2 my_feature">Sent Emails</div>
+            <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
                         <span class="text">200 / วัน</span>

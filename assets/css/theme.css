@@ -232,6 +232,16 @@ body {
     }
 }
 
+.my_featureTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 0.8em;
+    margin-bottom: -0.17em;
+    border: 0.1em solid rgb(163, 163, 163);
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.075) inset;
+}
+
 .my_featureRow {
     margin-top: 0.2em;
     margin-bottom: 0.2em;
@@ -246,7 +256,9 @@ body {
     -moz-border-radius: 100px;
     border-radius: 100px;
 }
-
+.all_plan {
+    background-color: #F1F1F1;
+}
 .green {
     background: #9dd53a;
 }
@@ -255,8 +267,9 @@ body {
     background: #f85032;
 }
 .text {
-    font-size: 20px;
+    font-size: 16px;
     color: #333;
+    text-shadow: 0px 1px 3px rgba(150, 150, 150, 0.5);
 }
 /* --- Plan 1 --------------------------- */
 .my_plan1 {
