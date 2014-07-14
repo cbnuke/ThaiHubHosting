@@ -68,7 +68,7 @@
                         ?>><?php echo anchor('features', '<i class="fa fa-briefcase"></i> คุณสมบัติของโฮสติ้ง'); ?></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><?php echo anchor('http://customer.thaihubhosting.com/clientarea.php', '<i class="fa fa-users"></i> ส่วนจัดการลูกค้า') ?></li>
+                        <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ส่วนจัดการลูกค้า') ?></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 <?= img('thai.png', array('width' => '18px')) ?> <span class="caret"></span>
