@@ -53,28 +53,29 @@
                         if ($this->router->class == 'home') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('home', '<i class="fa fa-home"></i> หน้าหลัก'); ?></li>
+                        ?>><?php echo anchor('home', '<i class="fa fa-home"></i> ' . lang('menu_home')); ?></li>
                         <li
                         <?php
                         if ($this->router->class == 'hosting') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('hosting', '<i class="fa fa-shopping-cart"></i> โฮสติ้งแพ็คเกจ'); ?></li>
+                        ?>><?php echo anchor('hosting', '<i class="fa fa-shopping-cart"></i> ' . lang('menu_hosting')); ?></li>
                         <li
                         <?php
                         if ($this->router->class == 'features') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('features', '<i class="fa fa-briefcase"></i> คุณสมบัติของโฮสติ้ง'); ?></li>
+                        ?>><?php echo anchor('features', '<i class="fa fa-briefcase"></i> ' . lang('menu_features')); ?></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ส่วนจัดการลูกค้า') ?></li>
+                        <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ' . lang('menu_customer')) ?></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 <?= img('thai.png', array('width' => '18px')) ?> <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#"><?= img('english_us.png', array('width' => '18px')) ?> USA</a></li>
+                                <li><?= anchor('lang/english/' . uri_string(), img('english_us.png', array('width' => '18px')) . ' ' . lang('menu_english')) ?></li>
+                                <li><?= anchor('lang/thai/' . uri_string(), img('thai.png', array('width' => '18px')) . ' ' . lang('menu_thai')) ?></li>
                             </ul>
                         </li>
                     </ul>

@@ -6,6 +6,7 @@ Class m_template extends CI_Model{
 	private $set_data = NULL;
 	private $permission = "ALL";
 	private $debud_data = NULL;
+        private $lang_value = array('theme');
 
 	function set_Debug($data){
 		$this->debud_data = $data;
@@ -40,9 +41,17 @@ Class m_template extends CI_Model{
 	}
 
 	function showTemplate(){
-		//--- Check Permission ---//
-		//$f_checkper = $this->check_permission();
-
+                //--- Load language --//
+                //Initial language
+                $site_lang = $this->session->userdata('site_lang');
+                if ($site_lang) {
+                    $this->lang->load('theme', $this->session->userdata('site_lang'));
+                    $this->language = $this->session->userdata('site_lang');
+                } else {
+                    $this->lang->load('theme', 'thai');
+                    $this->language = 'thai';
+                }
+                
 		//--- Redirect to current page ---//
 		$data['page'] = $this->uri->segment(1);
 			
