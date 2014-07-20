@@ -1,4 +1,5 @@
 <?php
+
 //--- Navbar  ---//
 $lang['menu_home'] = "HOME";
 $lang['menu_hosting'] = "HOSTING";

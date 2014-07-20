@@ -11,23 +11,10 @@ class Home extends CI_Controller {
         $this->load->library('form_validation');
 
         //Initial language
-        $site_lang = $this->session->userdata('site_lang');
-        if ($site_lang) {
-            $this->lang->load('theme', $this->session->userdata('site_lang'));
-            $this->language = $this->session->userdata('site_lang');
-        } else {
-            $this->lang->load('theme', 'thai');
-            $this->language = 'thai';
-        }
+        $this->m_template->set_Language(array('plan'));
     }
 
     public function index() {
-        $data = array();
-        $this->m_template->set_Content('home/main', $data);
-        $this->m_template->showTemplate();
-    }
-
-    public function test() {
         $data = array();
         $this->m_template->set_Content('home/main', $data);
         $this->m_template->showTemplate();

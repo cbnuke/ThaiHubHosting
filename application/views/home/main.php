@@ -100,13 +100,13 @@
             <div class="panel panel-info">
                 <div class="panel-heading"><h3 class="text-center">Mini Plan</h3></div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿650 / เดือน</strong></p>
+                    <p class="lead" style="font-size:40px"> &nbsp;<strong> ฿650 / <?=lang('year')?> </strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> พื้นที่ 1GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> แบนวิธ 10GB / เดือน</li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> จำนวนโดเมน 1</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> โดเมนเนมฟรี -</li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 1GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> 10GB / <?=lang('month')?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 1</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> -</li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 2</li>
                 </ul>
                 <div class="panel-footer">
@@ -127,13 +127,13 @@
             <div class="panel panel-info">
                 <div class="panel-heading"><h3 class="text-center">Small Plan</h3></div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿1,350 / เดือน</strong></p>
+                    <p class="lead" style="font-size:40px"><strong>฿1,350 / <?=lang('year')?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> พื้นที่ 3GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> แบนวิธ 50GB / เดือน</li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> จำนวนโดเมน 4</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> โดเมนเนมฟรี 1 ปี</li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 3GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> 50GB / <?=lang('month')?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 4</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> 1 <?=lang('year')?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 4</li>
                 </ul>
                 <div class="panel-footer">
@@ -154,13 +154,13 @@
             <div class="panel panel-info">
                 <div class="panel-heading"><h3 class="text-center">Medium Plan</h3></div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿2,600 / เดือน</strong></p>
+                    <p class="lead" style="font-size:40px"><strong>฿2,600 / <?=lang('year')?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> พื้นที่ 7GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> แบนวิธ 250GB / เดือน</li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> จำนวนโดเมน 6</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> โดเมนเนมฟรี 1 ปี</li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 7GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> 250GB / <?=lang('month')?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 6</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> 1 <?=lang('year')?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database ไม่จำกัด</li>
                 </ul>
                 <div class="panel-footer">
@@ -181,14 +181,14 @@
             <div class="panel panel-info">
                 <div class="panel-heading"><h3 class="text-center">Large Plan</h3></div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿4,950 / เดือน</strong></p>
+                    <p class="lead" style="font-size:40px"><strong>฿4,950 / <?=lang('year')?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> พื้นที่ 12GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> แบนวิธ ไม่จำกัด</li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> จำนวนโดเมน 9</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> โดเมนเนมฟรี 1 ปี</li>
-                    <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database ไม่จำกัด</li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 12GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> <?=lang('unlimited')?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 9</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> 1 <?=lang('year')?></li>
+                    <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database <?=lang('unlimited')?></li>
                 </ul>
                 <div class="panel-footer">
                     <table width="100%">

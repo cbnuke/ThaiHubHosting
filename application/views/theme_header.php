@@ -71,7 +71,17 @@
                         <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ' . lang('menu_customer')) ?></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <?= img('thai.png', array('width' => '18px')) ?> <span class="caret"></span>
+                                <?php
+                                $site_lang = $this->session->userdata('site_lang');
+                                if (!$site_lang) {
+                                    $img_path = 'thai.png';
+                                } else if ($site_lang == 'thai') {
+                                    $img_path = 'thai.png';
+                                } else if ($site_lang == 'english') {
+                                    $img_path = 'english_us.png';
+                                }
+                                ?>
+                                <?= img($img_path, array('width' => '18px')) ?> <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><?= anchor('lang/english/' . uri_string(), img('english_us.png', array('width' => '18px')) . ' ' . lang('menu_english')) ?></li>

@@ -9,12 +9,12 @@ class lang extends CI_Controller {
         parent::__construct();
     }
 
-    public function thai($page) {
+    public function thai($page = 'home') {
         $this->session->set_userdata('site_lang', "thai");
         $this->GoToCurrent($page);
     }
 
-    public function english($page) {
+    public function english($page = 'home') {
         $this->session->set_userdata('site_lang', "english");
         $this->GoToCurrent($page);
     }
