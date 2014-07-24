@@ -58,17 +58,15 @@
 
 <div class="container marketing">
     <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading">บริการโฮสติ้งคุณภาพสูง <span class="text-muted">ที่รองรับทุกรูปแบบการใช้งาน</span></h2>
-            <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ไทยฮับโฮสติ้ง เราได้จัดสรรแพ็คเก็จให้เหมาะสมตามการใช้งานของลูกค้า โดยทำการแบ่งแพ็คเก็จออกตามขนาดของธุรกิจหรือกิจการที่ลูกค้าต้องการ</p>
-            <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ด้วยระบบชั้นนำ, อุปกรณ์เครื่องมือระบบโลก และการดูแลบริการหลังการขายที่ดี ทำให้เราพร้อมที่จะให้บริการทุกท่าน</p>
-            <p><?= anchor('features', '<i class="fa fa-heart"></i> ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?></p>
-        </div>
-        <div class="col-md-5">
-            <?= img('tools.jpg', array('class' => 'featurette-image img-responsive')) ?>
+        <div class="col-md-12">
+            <div class="ui piled segment">
+                <h2 class="featurette-heading">บริการโฮสติ้งคุณภาพสูง <span class="text-muted">ที่รองรับทุกรูปแบบการใช้งาน</span></h2>
+                <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ไทยฮับโฮสติ้ง เราได้จัดสรรแพ็คเก็จให้เหมาะสมตามการใช้งานของลูกค้า โดยทำการแบ่งแพ็คเก็จออกตามขนาดของธุรกิจหรือกิจการที่ลูกค้าต้องการ</p>
+                <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ด้วยระบบชั้นนำ, อุปกรณ์เครื่องมือระบบโลก และการดูแลบริการหลังการขายที่ดี ทำให้เราพร้อมที่จะให้บริการทุกท่าน</p>
+                <p><?= anchor('features', '<i class="fa fa-heart"></i> ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?></p>
+            </div>     
         </div>
     </div>
-    <hr class="featurette-divider">
 </div>
 
 <div class="container marketing">
@@ -76,13 +74,21 @@
     <div class="row featurette">
         <div class="col-md-6">
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราได้ให้บริการในการจดโมนหลายชนิด รองรับการจดโดเมนมาตรฐานทุกชนิด ไม่ว่าจะเป็น .com, .net, .org หรืออย่าง .io, .us, .me เป็นต้น</p>
+            <ul>
+                <li>.com</li>
+                <li>.net</li>
+                <li>.org</li>
+                <li>.io</li>
+                <li>.us</li>
+                <li>.me</li>
+            </ul>
         </div>
         <div class="col-md-6" style="padding-top: 30px;">
             <div class="input-group">
                 <span class="input-group-addon">ตรวจสอบโดเมนว่าง</span>
                 <input type="text" class="form-control" placeholder="เช่น thaihubhosting.com">
                 <span class="input-group-btn">
-                    <button class="btn btn-warning" type="button">ตรวจสอบ</button>
+                    <button class="btn btn-warning" type="button"><i class="fa fa-search fa-lg"></i></button>
                 </span>
             </div><!-- /input-group -->
         </div><!-- /.col-lg-6 -->
@@ -97,16 +103,19 @@
     </h2>
     <div class="row">
         <div class="col-md-3">
-            <div class="panel panel-info">
-                <div class="panel-heading"><h3 class="text-center">Mini Plan</h3></div>
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <div class="ui teal ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_value') ?></div>
+                    <h3 class="text-center">Mini Plan</h3>
+                </div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"> &nbsp;<strong> ฿650 / <?=lang('year')?> </strong></p>
+                    <p class="lead" style="font-size:40px"> &nbsp;<strong> ฿650 / <?= lang('year') ?> </strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 1GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> 10GB / <?=lang('month')?></li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 1</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> -</li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 1GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 10GB / <?= lang('month') ?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 1</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> -</li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 2</li>
                 </ul>
                 <div class="panel-footer">
@@ -124,16 +133,19 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-info">
-                <div class="panel-heading"><h3 class="text-center">Small Plan</h3></div>
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <div class="ui orange ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_best') ?></div>
+                    <h3 class="text-center">Small Plan</h3>
+                </div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿1,350 / <?=lang('year')?></strong></p>
+                    <p class="lead" style="font-size:40px"><strong>฿1,350 / <?= lang('year') ?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 3GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> 50GB / <?=lang('month')?></li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 4</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> 1 <?=lang('year')?></li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 3GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 50GB / <?= lang('month') ?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 4</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 4</li>
                 </ul>
                 <div class="panel-footer">
@@ -151,16 +163,19 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="panel panel-info">
-                <div class="panel-heading"><h3 class="text-center">Medium Plan</h3></div>
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <div class="ui red ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_balance') ?></div>
+                    <h3 class="text-center">Medium Plan</h3>
+                </div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿2,600 / <?=lang('year')?></strong></p>
+                    <p class="lead" style="font-size:40px"><strong>฿2,600 / <?= lang('year') ?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 7GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> 250GB / <?=lang('month')?></li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 6</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> 1 <?=lang('year')?></li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 7GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 250GB / <?= lang('month') ?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 6</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database ไม่จำกัด</li>
                 </ul>
                 <div class="panel-footer">
@@ -179,16 +194,19 @@
         </div>
         <div class="col-md-3">
             <div class="panel panel-info">
-                <div class="panel-heading"><h3 class="text-center">Large Plan</h3></div>
+                <div class="panel-heading">
+                    <div class="ui blue ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_enterprise') ?></div>
+                    <h3 class="text-center">Large Plan</h3>
+                </div>
                 <div class="panel-body text-center">
-                    <p class="lead" style="font-size:40px"><strong>฿4,950 / <?=lang('year')?></strong></p>
+                    <p class="lead" style="font-size:40px"><strong>฿4,950 / <?= lang('year') ?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?=lang('storage')?> 12GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?=lang('bandwidth')?> <?=lang('unlimited')?></li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?=lang('domain')?> 9</li>
-                    <li class="list-group-item"><i class="fa fa-check"></i> <?=lang('free_domain')?> 1 <?=lang('year')?></li>
-                    <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database <?=lang('unlimited')?></li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 12GB</li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> <?= lang('unlimited') ?></li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 9</li>
+                    <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
+                    <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database <?= lang('unlimited') ?></li>
                 </ul>
                 <div class="panel-footer">
                     <table width="100%">

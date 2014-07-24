@@ -12,4 +12,8 @@ $lang['domain'] = "จำนวนโดเมน";
 $lang['sub_domain'] = "จำนวนโดเมนย่อย";
 $lang['free_domain'] = "โดเมนเนมฟรี";
 
-
+//--- Label ---//
+$lang['label_value'] = "คุ้มค่า";
+$lang['label_best'] = "เยี่ยม";
+$lang['label_balance'] = "สมดุลย์";
+$lang['label_enterprise'] = "องค์กร";

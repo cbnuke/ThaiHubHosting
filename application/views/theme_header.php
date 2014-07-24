@@ -15,12 +15,13 @@
               href="<?= asset_url() ?>img/apple-touch-icon-144-precomposed.png">
         <link rel="shortcut icon" href="<?= asset_url() ?>img/favicon.ico">
         <!-- Bootstrap core CSS ans JS -->
+        <?php echo js('pace.min.js'); ?>
         <?php echo css('bootstrap.css'); ?>
         <?php echo css('pace.css'); ?>
         <?php echo css('theme.css'); ?>
         <?php echo css('label.min.css'); ?>
+        <?php echo css('segment.min.css'); ?>
         <?php echo css('font-awesome.css'); ?>
-        <?php echo js('pace.min.js'); ?>
         <?php echo js('jquery.js'); ?>
         <?php echo js('bootstrap.js'); ?>
         <?php echo js('docs.min.js'); ?>
