@@ -2,7 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords"
               content="thaihubhosting, hosting, host, high perfomance">
         <meta name="description"
@@ -31,13 +32,35 @@
             jQuery(window).load(function() {
                 $('.content-wrap').fadeIn(1500);
                 $('#intro').parallax("50%", 0.1);
+                $('#popoverMail').popover();
+                $('#popoverFacebook').popover();
+                $('#popoverMobile').popover();
+            });
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 30) { //use `this`, not `document`
+                    $('#top-nav').fadeOut();
+                }else{
+                    $('#top-nav').fadeIn();
+                }
             });
         </script>
     </head>
     <body>
         <!-- Fixed navbar -->
         <div class="navbar navbar-fixed-top th-nav" role="navigation">
-            <div class="container">
+            <div id="top-nav" class="row th-top-nav">
+                <p>
+                <p 
+                    class="color-white">เลขที่ทะเบียนพานิชย์ XXXX
+                </p>
+                <p class="text-right" style="margin-top: -28px">
+                    <a id="popoverMail" class="btn" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านอีเมล์" data-trigger="hover"><i class="fa fa-envelope"></i></a>
+                    <a id="popoverFacebook" class="btn" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านเพจ" data-trigger="hover"><i class="fa fa-facebook"></i></a>
+                    <a id="popoverMobile" class="btn" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i></a>
+                </p>
+                </p>
+            </div>
+            <div class="container">           
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-collapse">
