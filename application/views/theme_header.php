@@ -39,7 +39,7 @@
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 30) { //use `this`, not `document`
                     $('#top-nav').fadeOut();
-                }else{
+                } else {
                     $('#top-nav').fadeIn();
                 }
             });
@@ -48,16 +48,12 @@
     <body>
         <!-- Fixed navbar -->
         <div class="navbar navbar-fixed-top th-nav" role="navigation">
-            <div id="top-nav" class="row th-top-nav">
-                <p>
-                <p 
-                    class="color-white">เลขที่ทะเบียนพานิชย์ XXXX
-                </p>
-                <p class="text-right" style="margin-top: -28px">
-                    <a id="popoverMail" class="btn" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านอีเมล์" data-trigger="hover"><i class="fa fa-envelope"></i></a>
-                    <a id="popoverFacebook" class="btn" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านเพจ" data-trigger="hover"><i class="fa fa-facebook"></i></a>
-                    <a id="popoverMobile" class="btn" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i></a>
-                </p>
+            <div id="top-nav" class="th-top-nav">
+                <p class="color-white" style="font-weight: lighter;">เลขที่ทะเบียนพานิชย์ XXXX</p>
+                <p class="text-right" style="margin-top: -20px;">
+                    <a id="popoverMail" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านอีเมล์" data-trigger="hover"><i class="fa fa-envelope"></i> Support |</a>
+                    <a id="popoverFacebook" class="hidden-xs" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน Facebookpage ThaiHubHosting" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านเพจ" data-trigger="hover"> <i class="fa fa-facebook"></i> ThaiHubHosting |</a>
+                    <a id="popoverMobile" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i> 085-0247205</a>
                 </p>
             </div>
             <div class="container">           

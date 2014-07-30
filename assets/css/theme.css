@@ -7,16 +7,20 @@ body {
 }
 
 .th-top-nav {
+    margin: 0px;
+    padding: 3px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    line-height: 1.42857143;
-    background: rgb(34,153,221);
+    line-height: 1.4;
+    background: #2299dd;
 }
 .th-top-nav>p {
-    margin: 0px 20px;
+    margin: 0px;
 }
 .th-top-nav>p>a {
     color: #FFF;
+    font-weight: lighter;
+    text-decoration: none;
 }
 .color-white {
     color: #FFF;

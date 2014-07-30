@@ -73,15 +73,6 @@
     <div class="row featurette">
         <div class="col-md-6">
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราได้ให้บริการในการจดโมนหลายชนิด รองรับการจดโดเมนมาตรฐานทุกชนิด ไม่ว่าจะเป็น .com, .net, .org หรืออย่าง .io, .us, .me เป็นต้น</p>
-            <table class="table table-bordered">
-                <tr><th>ประเภท</th><th>ราคาต่อปี</th></tr>
-                <tr><td>.com</td><td></td></tr>
-                <tr><td>.net</td><td></td></tr>
-                <tr><td>.org</td><td></td></tr>
-                <tr><td>.io</td><td></td></tr>
-                <tr><td>.us</td><td></td></tr>
-                <tr><td>.me</td><td></td></tr>
-            </table>
         </div>
         <div class="col-md-6">
             <div class="input-group">
@@ -92,6 +83,16 @@
                 </span>
             </div><!-- /input-group -->
         </div><!-- /.col-lg-6 -->
+    </div>
+    <div class="row featurette">
+        <table class="table table-bordered">
+            <tr><td>.com</td><td></td></tr>
+            <tr><td>.net</td><td></td></tr>
+            <tr><td>.org</td><td></td></tr>
+            <tr><td>.io</td><td></td></tr>
+            <tr><td>.us</td><td></td></tr>
+            <tr><td>.me</td><td></td></tr>
+        </table>
     </div>
     <hr class="featurette-divider">
 </div>
