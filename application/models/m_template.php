@@ -5,7 +5,7 @@ if (!defined('BASEPATH'))
 
 Class m_template extends CI_Model {
 
-    private $title = 'ThaiHubHosting เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย';
+    private $title = 'ThaiHubHosting เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย | Quality web hosting for Thailand';
     private $view_name = NULL;
     private $set_data = NULL;
     private $permission = "ALL";

@@ -13,9 +13,8 @@
             <i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa fa-mobile fa-stack-1x"></i>
         </span>085-0247205
     </p>
-    <p>COPYRIGHT &copy; 2014 ThaiHubHosting.com, Mail admin@thaihubhosting.com  &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms of Use</a></p>
 </footer>
-</div>
+<div class="th-footer-bottom">COPYRIGHT &copy; 2014 ThaiHubHosting.com เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย | Quality web hosting for Thailand</div>
 </div>
 <script>
     jQuery(document).ready(function($) {

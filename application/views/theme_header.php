@@ -56,7 +56,7 @@
                     <a id="popoverMobile" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i> 085-0247205</a>
                 </p>
             </div>
-            <div class="container">           
+            <div class="container-fluid">           
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target=".navbar-collapse">
