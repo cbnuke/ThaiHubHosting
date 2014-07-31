@@ -1,5 +1,5 @@
 <div id="hosting_intro">
-    <div class="th-docs-hosting" style="margin-bottom: 0px;">
+    <div class="th-docs-hosting" style="margin-bottom: -20px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -16,44 +16,35 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-5 thumbnail">
-                <div class="caption">
-                    <div class="ui raised segment">
-                        <div class="ui teal ribbon label">Mini</div>
-                        <p>เหมาะสำหรับผู้เริ่มใช้งานหรือธุรกิจขนาดเล็ก
-                            ที่มีความต้องการใช้งานน้อยและประหยัดค่าใช้จ่าย</p>
-                    </div>
+            <div class="col-md-6" style="margin-top: 20px;">
+                <div class="ui teal segment">
+                    <div class="ui teal ribbon label">Mini</div>
+                    <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับผู้เริ่มใช้งานหรือธุรกิจขนาดเล็ก
+                        ที่มีความต้องการใช้งานน้อยและประหยัดค่าใช้จ่าย</p>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-2 thumbnail">
-                <div class="caption">
-                    <div class="ui raised segment">
-                        <div class="ui orange ribbon label">Small</div>
-                        <p>เหมาะสำหรับบริการหรือธุรกิจขนาดกลาง
-                            ที่มีความต้องการใช้งานและต้องการพื้นที่เพื่อรองรับข้อมูลที่เยอะมากขึ้น</p>
-                    </div>
+            <div class="col-md-6" style="margin-top: 20px;">
+                <div class="ui orange segment">
+                    <div class="ui orange ribbon label">Small</div>
+                    <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับบริการหรือธุรกิจขนาดกลาง
+                        ที่มีความต้องการใช้งานและต้องการพื้นที่เพื่อรองรับข้อมูลที่เยอะมากขึ้น</p>
                 </div>
             </div>
         </div>
-
         <div class="row">
-            <div class="col-md-5 thumbnail">
-                <div class="caption">
-                    <div class="ui raised segment">
-                        <div class="ui red ribbon label">Medium</div>
-                        <p>เหมาะสำหรับภาครัฐหรือเอกชนที่ต้องการความน่าเชื่อถือ
-                            และรองรับการใช้งานหรือข้อมูลในจำนวนมาก
-                            อีกทั้งยังสามารถเก็บข้อมูลได้หลายเว็บไซต์ในหนึ่งแพ็คเกจ</p>
-                    </div>
+            <div class="col-md-6" style="margin-top: 20px;">
+                <div class="ui red segment">
+                    <div class="ui red ribbon label">Medium</div>
+                    <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับภาครัฐหรือเอกชนที่ต้องการความน่าเชื่อถือ
+                        และรองรับการใช้งานหรือข้อมูลในจำนวนมาก
+                        อีกทั้งยังสามารถเก็บข้อมูลได้หลายเว็บไซต์ในหนึ่งแพ็คเกจ</p>
                 </div>
             </div>
-            <div class="col-md-5 col-md-offset-2 thumbnail">
-                <div class="caption">
-                    <div class="ui raised segment">
-                        <div class="ui blue ribbon label">Large</div>
-                        <p>เหมาะสำหรับผู้ใช้ที่ต้องการใช้งาน เก็บข้อมูลมากเป็นพิเศษ
-                            อีกทั้งต้องรองรับการเข้าชมเว็บไซต์เป็นจำนวนมากในแต่ละวัน</p>
-                    </div>
+            <div class="col-md-6" style="margin-top: 20px;">
+                <div class="ui blue segment">
+                    <div class="ui blue ribbon label">Large</div>
+                    <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับผู้ใช้ที่ต้องการใช้งาน เก็บข้อมูลมากเป็นพิเศษ
+                        อีกทั้งต้องรองรับการเข้าชมเว็บไซต์เป็นจำนวนมากในแต่ละวัน</p>
                 </div>
             </div>
         </div>
@@ -178,7 +169,7 @@
                 </div>
             </div>
         </div>
-         <div class="row my_featureRow">
+        <div class="row my_featureRow">
             <div class="col-md-2 my_feature">โดเมนเนมฟรี 1 ปี</div>
             <div class="col-md-10">
                 <div class="row">

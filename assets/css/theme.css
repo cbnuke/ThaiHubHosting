@@ -25,6 +25,9 @@ body {
 .color-white {
     color: #FFF;
 }
+.color-black {
+    color: #333;
+}
 
 .th-nav {
     background-image: -webkit-linear-gradient(top, #fff 0%, #fff 100%);
