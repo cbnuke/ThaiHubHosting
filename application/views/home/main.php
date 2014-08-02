@@ -153,7 +153,7 @@
                 <ul class="list-group list-group-flush text-center">
                     <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 3GB</li>
                     <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 50GB / <?= lang('month') ?></li>
-                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 4</li>
+                    <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 3</li>
                     <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 4</li>
                 </ul>
