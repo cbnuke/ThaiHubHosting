@@ -7,3 +7,5 @@ $lang['menu_features'] = "FEATURES";
 $lang['menu_customer'] = "CUSTOMER";
 $lang['menu_thai'] = "THAI";
 $lang['menu_english'] = "ENGLISH(US)";
+
+$lang['phone_number1'] = "(+66)88-561-2209";

@@ -8,5 +8,4 @@ $lang['menu_customer'] = "ส่วนจัดการลูกค้า";
 $lang['menu_thai'] = "ไทย";
 $lang['menu_english'] = "อังกฤษ(สหรัฐฯ)";
 
-//--- Footer ---//
-
+$lang['phone_number1'] = "088-561-2209";

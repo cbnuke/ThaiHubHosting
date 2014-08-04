@@ -72,7 +72,7 @@
     <h2 class="featurette-heading">บริการจดโดเมนกับผู้ให้บริการระดับโลก <span class="text-muted">ผ่าน Resellerclub</span></h2>
     <div class="row featurette">
         <div class="col-md-6">
-            <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราได้ให้บริการในการจดโมนหลายชนิด รองรับการจดโดเมนมาตรฐานทุกชนิด ไม่ว่าจะเป็น .com, .net, .org หรืออย่าง .io, .us, .me รายละเอียดดังนี้</p>
+            <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราได้ให้บริการในการจดโมนหลายชนิด รองรับการจดโดเมนมาตรฐานทุกชนิด ไม่ว่าจะเป็น .com, .net, .org หรืออย่าง .io, .us, .me </p>
         </div>
         <div class="col-md-6">
             <div class="input-group">
@@ -84,7 +84,7 @@
             </div><!-- /input-group -->
         </div><!-- /.col-lg-6 -->
     </div>
-    <!-- Nav tabs -->
+    <!-- Comment
     <ul class="nav nav-tabs" role="tablist">
         <li class="active"><a href="#tabcom" role="tab" data-toggle="tab">.com</a></li>
         <li><a href="#tabnet" role="tab" data-toggle="tab">.net</a></li>
@@ -93,7 +93,6 @@
         <li><a href="#tabus" role="tab" data-toggle="tab">.us</a></li>
         <li><a href="#tabme" role="tab" data-toggle="tab">.me</a></li>
     </ul>
-    <!-- Tab panes -->
     <div class="tab-content">
         <div class="tab-pane fade in active" id="tabcom">1</div>
         <div class="tab-pane fade" id="tabnet">2</div>
@@ -102,6 +101,7 @@
         <div class="tab-pane fade" id="tabus">5</div>
         <div class="tab-pane fade" id="tabme">6</div>
     </div>
+    -->
     <hr class="featurette-divider">
 </div>
 

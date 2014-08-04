@@ -1,4 +1,7 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+
+if (!defined('BASEPATH'))
+    exit('No direct script access allowed');
 
 /**
  * Sekati CodeIgniter Asset Helper
@@ -17,30 +20,29 @@
  * @example		<?=img('photo.jpg')?>
  *
  * @install		Copy config/asset.php to your CI application/config directory
- *				& helpers/asset_helper.php to your application/helpers/ directory.
+ * 				& helpers/asset_helper.php to your application/helpers/ directory.
  * 				Then add both files as autoloads in application/autoload.php:
  *
- *				$autoload['config'] = array('asset');
+ * 				$autoload['config'] = array('asset');
  * 				$autoload['helper'] = array('asset');
  *
- *				Autoload CodeIgniter's url_helper in application/config/autoload.php:
- *				$autoload['helper'] = array('url');
+ * 				Autoload CodeIgniter's url_helper in application/config/autoload.php:
+ * 				$autoload['helper'] = array('url');
  *
  * @notes		Organized assets in the top level of your CodeIgniter 2.x app:
- *					- assets/
- *						-- css/
- *						-- download/
- *						-- img/
- *						-- js/
- *						-- less/
- *						-- swf/
- *						-- upload/
- *						-- xml/
- *					- application/
+ * 					- assets/
+ * 						-- css/
+ * 						-- download/
+ * 						-- img/
+ * 						-- js/
+ * 						-- less/
+ * 						-- swf/
+ * 						-- upload/
+ * 						-- xml/
+ * 					- application/
  * 						-- config/asset.php
  * 						-- helpers/asset_helper.php
  */
-
 // ------------------------------------------------------------------------
 // URL HELPERS
 
@@ -50,15 +52,15 @@
  * @access  public
  * @return  string
  */
-if ( ! function_exists('asset_url'))
-{
-    function asset_url()
-    {
+if (!function_exists('asset_url')) {
+
+    function asset_url() {
         //get an instance of CI so we can access our configuration
-        $CI =& get_instance();
+        $CI = & get_instance();
         //return the full asset path
         return base_url() . $CI->config->item('asset_path');
     }
+
 }
 
 /**
@@ -67,13 +69,13 @@ if ( ! function_exists('asset_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('css_url'))
-{
-    function css_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('css_url')) {
+
+    function css_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('css_path');
     }
+
 }
 
 /**
@@ -82,13 +84,13 @@ if ( ! function_exists('css_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('less_url'))
-{
-    function less_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('less_url')) {
+
+    function less_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('less_path');
     }
+
 }
 
 /**
@@ -97,13 +99,13 @@ if ( ! function_exists('less_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('js_url'))
-{
-    function js_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('js_url')) {
+
+    function js_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('js_path');
     }
+
 }
 
 /**
@@ -112,13 +114,13 @@ if ( ! function_exists('js_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('img_url'))
-{
-    function img_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('img_url')) {
+
+    function img_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('img_path');
     }
+
 }
 
 /**
@@ -127,13 +129,13 @@ if ( ! function_exists('img_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('swf_url'))
-{
-    function swf_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('swf_url')) {
+
+    function swf_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('swf_path');
     }
+
 }
 
 /**
@@ -142,13 +144,13 @@ if ( ! function_exists('swf_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('upload_url'))
-{
-    function upload_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('upload_url')) {
+
+    function upload_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('upload_path');
     }
+
 }
 
 /**
@@ -157,13 +159,13 @@ if ( ! function_exists('upload_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('download_url'))
-{
-    function download_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('download_url')) {
+
+    function download_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('download_path');
     }
+
 }
 
 /**
@@ -172,13 +174,13 @@ if ( ! function_exists('download_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('xml_url'))
-{
-    function xml_url()
-    {
-        $CI =& get_instance();
+if (!function_exists('xml_url')) {
+
+    function xml_url() {
+        $CI = & get_instance();
         return base_url() . $CI->config->item('xml_path');
     }
+
 }
 
 
@@ -191,14 +193,14 @@ if ( ! function_exists('xml_url'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('asset_path'))
-{
-    function asset_path()
-    {
+if (!function_exists('asset_path')) {
+
+    function asset_path() {
         //get an instance of CI so we can access our configuration
-        $CI =& get_instance();
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('asset_path');
     }
+
 }
 
 /**
@@ -207,14 +209,14 @@ if ( ! function_exists('asset_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('css_path'))
-{
-    function css_path()
-    {
+if (!function_exists('css_path')) {
+
+    function css_path() {
         //get an instance of CI so we can access our configuration
-        $CI =& get_instance();
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('css_path');
     }
+
 }
 
 /**
@@ -223,14 +225,14 @@ if ( ! function_exists('css_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('less_path'))
-{
-    function less_path()
-    {
+if (!function_exists('less_path')) {
+
+    function less_path() {
         //get an instance of CI so we can access our configuration
-        $CI =& get_instance();
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('less_path');
     }
+
 }
 
 /**
@@ -239,14 +241,14 @@ if ( ! function_exists('less_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('js_path'))
-{
-    function js_path()
-    {
+if (!function_exists('js_path')) {
+
+    function js_path() {
         //get an instance of CI so we can access our configuration
-        $CI =& get_instance();
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('js_path');
     }
+
 }
 
 /**
@@ -255,14 +257,14 @@ if ( ! function_exists('js_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('img_path'))
-{
-    function img_path()
-    {
+if (!function_exists('img_path')) {
+
+    function img_path() {
         //get an instance of CI so we can access our configuration
-        $CI =& get_instance();
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('img_path');
     }
+
 }
 
 /**
@@ -271,13 +273,13 @@ if ( ! function_exists('img_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('swf_path'))
-{
-    function swf_path()
-    {
-        $CI =& get_instance();
+if (!function_exists('swf_path')) {
+
+    function swf_path() {
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('swf_path');
     }
+
 }
 
 /**
@@ -286,13 +288,13 @@ if ( ! function_exists('swf_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('xml_path'))
-{
-    function xml_path()
-    {
-        $CI =& get_instance();
+if (!function_exists('xml_path')) {
+
+    function xml_path() {
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('xml_path');
     }
+
 }
 
 /**
@@ -301,13 +303,13 @@ if ( ! function_exists('xml_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('upload_path'))
-{
-    function upload_path()
-    {
-        $CI =& get_instance();
+if (!function_exists('upload_path')) {
+
+    function upload_path() {
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('upload_path');
     }
+
 }
 
 /**
@@ -316,13 +318,13 @@ if ( ! function_exists('upload_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('upload_path_relative'))
-{
-    function upload_path_relative()
-    {
-        $CI =& get_instance();
+if (!function_exists('upload_path_relative')) {
+
+    function upload_path_relative() {
+        $CI = & get_instance();
         return './' . $CI->config->item('upload_path');
     }
+
 }
 
 /**
@@ -331,13 +333,13 @@ if ( ! function_exists('upload_path_relative'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('download_path'))
-{
-    function download_path()
-    {
-        $CI =& get_instance();
+if (!function_exists('download_path')) {
+
+    function download_path() {
+        $CI = & get_instance();
         return FCPATH . $CI->config->item('download_path');
     }
+
 }
 
 /**
@@ -346,13 +348,13 @@ if ( ! function_exists('download_path'))
  * @access  public
  * @return  string
  */
-if ( ! function_exists('download_path_relative'))
-{
-    function download_path_relative()
-    {
-        $CI =& get_instance();
+if (!function_exists('download_path_relative')) {
+
+    function download_path_relative() {
+        $CI = & get_instance();
         return './' . $CI->config->item('download_path');
     }
+
 }
 
 
@@ -366,12 +368,12 @@ if ( ! function_exists('download_path_relative'))
  * @param   string
  * @return  string
  */
-if ( ! function_exists('css'))
-{
-    function css($file, $media='all')
-    {
-        return '<link rel="stylesheet" type="text/css" href="' . css_url() . $file . '" media="' . $media . '">'."\n";
+if (!function_exists('css')) {
+
+    function css($file, $media = 'all') {
+        return '<link rel="stylesheet" type="text/css" href="' . css_url() . $file . '" media="' . $media . '">' . "\n";
     }
+
 }
 
 /**
@@ -381,12 +383,12 @@ if ( ! function_exists('css'))
  * @param   string
  * @return  string
  */
-if ( ! function_exists('less'))
-{
-    function less($file)
-    {
-        return '<link rel="stylesheet/less" type="text/css" href="' . less_url() . $file . '">'."\n";
+if (!function_exists('less')) {
+
+    function less($file) {
+        return '<link rel="stylesheet/less" type="text/css" href="' . less_url() . $file . '">' . "\n";
     }
+
 }
 
 /**
@@ -397,18 +399,18 @@ if ( ! function_exists('less'))
  * @param 	array 	$atts Optional, additional key/value attributes to include in the SCRIPT tag
  * @return  string
  */
-if ( ! function_exists('js'))
-{
-    function js($file, $atts = array())
-    {
+if (!function_exists('js')) {
+
+    function js($file, $atts = array()) {
         $element = '<script type="text/javascript" src="' . js_url() . $file . '"';
 
-		foreach ( $atts as $key => $val )
-			$element .= ' ' . $key . '="' . $val . '"';
-		$element .= '></script>'."\n";
+        foreach ($atts as $key => $val)
+            $element .= ' ' . $key . '="' . $val . '"';
+        $element .= '></script>' . "\n";
 
-		return $element;
+        return $element;
     }
+
 }
 
 /**
@@ -419,16 +421,16 @@ if ( ! function_exists('js'))
  * @param 	array 	$atts Optional, additional key/value attributes to include in the IMG tag
  * @return  string
  */
-if ( ! function_exists('img'))
-{
-    function img($file,  $atts = array())
-    {
-		$url = '<img src="' . img_url() . $file . '"';
-		foreach ( $atts as $key => $val )
-			$url .= ' ' . $key . '="' . $val . '"';
-		$url .= " />\n";
+if (!function_exists('img')) {
+
+    function img($file, $atts = array()) {
+        $url = '<img src="' . img_url() . $file . '"';
+        foreach ($atts as $key => $val)
+            $url .= ' ' . $key . '="' . $val . '"';
+        $url .= " />\n";
         return $url;
     }
+
 }
 
 /**
@@ -438,15 +440,15 @@ if ( ! function_exists('img'))
  * @param   string
  * @return  string
  */
-if ( ! function_exists('jquery'))
-{
-    function jquery($version='')
-    {
-    	// Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline
-  		$out = '<script src="//ajax.googleapis.com/ajax/libs/jquery/'.$version.'/jquery.min.js"></script>'."\n";
-  		$out .= '<script>window.jQuery || document.write(\'<script src="'.js_url().'jquery-'.$version.'.min.js"><\/script>\')</script>'."\n";
+if (!function_exists('jquery')) {
+
+    function jquery($version = '') {
+        // Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline
+        $out = '<script src="//ajax.googleapis.com/ajax/libs/jquery/' . $version . '/jquery.min.js"></script>' . "\n";
+        $out .= '<script>window.jQuery || document.write(\'<script src="' . js_url() . 'jquery-' . $version . '.min.js"><\/script>\')</script>' . "\n";
         return $out;
     }
+
 }
 
 /**
@@ -456,24 +458,22 @@ if ( ! function_exists('jquery'))
  * @param   string
  * @return  string
  */
-if ( ! function_exists('google_analytics'))
-{
-    function google_analytics($ua='')
-    {
-    	// Change UA-XXXXX-X to be your site's ID
-	    $out = "<!-- Google Webmaster Tools & Analytics -->\n";
-	    $out .='<script type="text/javascript">';
-		$out .='	var _gaq = _gaq || [];';
-		$out .="    _gaq.push(['_setAccount', '$ua']);";
-		$out .="    _gaq.push(['_trackPageview']);";
-		$out .='    (function() {';
-		$out .="      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;";
-		$out .="      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';";
-		$out .="      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);";
-		$out .="    })();";
-	    $out .="</script>";
+if (!function_exists('google_analytics')) {
+
+    function google_analytics($ua = '') {
+        // Change UA-XXXXX-X to be your site's ID
+        $out = "<!-- Google Analytics -->\n";
+        $out .= "<script>";
+        $out .= "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){";
+        $out .= "(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),";
+        $out .= "m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)";
+        $out .= "})(window,document,'script','//www.google-analytics.com/analytics.js','ga');";
+        $out .= "ga('create', '" . $ua . "', 'auto');";
+        $out .= "ga('send', 'pageview');";
+        $out .= "</script>";
         return $out;
     }
+
 }
 
 /* End of file asset_helper.php */
