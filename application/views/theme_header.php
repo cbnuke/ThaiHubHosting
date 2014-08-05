@@ -44,7 +44,7 @@
                 }
             });
         </script>
-        <?= google_analytics('UA-53490466-1') ?>
+        <?php echo google_analytics('UA-53490466-1'); ?>
     </head>
     <body>
         <!-- Fixed navbar -->

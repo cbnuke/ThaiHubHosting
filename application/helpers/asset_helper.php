@@ -462,15 +462,17 @@ if (!function_exists('google_analytics')) {
 
     function google_analytics($ua = '') {
         // Change UA-XXXXX-X to be your site's ID
-        $out = "<!-- Google Analytics -->\n";
-        $out .= "<script>";
-        $out .= "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){";
-        $out .= "(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),";
-        $out .= "m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)";
-        $out .= "})(window,document,'script','//www.google-analytics.com/analytics.js','ga');";
-        $out .= "ga('create', '" . $ua . "', 'auto');";
-        $out .= "ga('send', 'pageview');";
-        $out .= "</script>";
+	    $out = "<!-- Google Webmaster Tools & Analytics -->\n";
+	    $out .='<script type="text/javascript">';
+		$out .='	var _gaq = _gaq || [];';
+		$out .="    _gaq.push(['_setAccount', '$ua']);";
+		$out .="    _gaq.push(['_trackPageview']);";
+		$out .='    (function() {';
+		$out .="      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;";
+		$out .="      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';";
+		$out .="      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);";
+		$out .="    })();";
+	    $out .="</script>";
         return $out;
     }
 
