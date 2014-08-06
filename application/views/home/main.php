@@ -75,13 +75,16 @@
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราได้ให้บริการในการจดโมนหลายชนิด รองรับการจดโดเมนมาตรฐานทุกชนิด ไม่ว่าจะเป็น .com, .net, .org หรืออย่าง .io, .us, .me </p>
         </div>
         <div class="col-md-6">
-            <div class="input-group">
-                <span class="input-group-addon">ตรวจสอบโดเมนว่าง</span>
-                <input type="text" class="form-control" placeholder="เช่น thaihubhosting.com">
-                <span class="input-group-btn">
-                    <button class="btn btn-warning" type="button"><i class="fa fa-search fa-lg"></i></button>
-                </span>
-            </div><!-- /input-group -->
+            <form action="https://www.thaihubhosting.com/customer/domainchecker.php" method="post">
+                <div class="input-group">
+                    <span class="input-group-addon">ตรวจสอบโดเมนว่าง</span>                
+                    <input type="hidden" name="direct" value="true" />
+                    <input type="text" name="domain" class="form-control" placeholder="เช่น thaihubhosting.com">
+                    <span class="input-group-btn">
+                        <button class="btn btn-warning" type="submit"><i class="fa fa-search fa-lg"></i></button>
+                    </span>
+                </div><!-- /input-group -->
+            </form>
         </div><!-- /.col-lg-6 -->
     </div>
     <!-- Comment

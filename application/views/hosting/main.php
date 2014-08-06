@@ -63,7 +63,7 @@
                         <div class="my_planTitle">Mini</div>
                         <div class="my_planPrice">฿650 / ปี</div>
                         <div class="my_planDuration">&nbsp;</div>
-                        <a type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=1" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                     <div class="col-md-3 my_planHeader my_plan2">
@@ -73,21 +73,21 @@
                         <div class="my_planTitle">Small</div>
                         <div class="my_planPrice">฿1,350 / ปี</div>
                         <div class="my_planDuration">โดเมนเนมฟรี 1 ปี</div>
-                        <a type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=2" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                     <div class="col-md-3 my_planHeader my_plan3">
                         <div class="my_planTitle">Medium</div>
                         <div class="my_planPrice">฿2,600 / ปี</div>
                         <div class="my_planDuration">โดเมนเนมฟรี 1 ปี</div>
-                        <a type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=3" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                     <div class="col-md-3 my_planHeader my_plan4">
                         <div class="my_planTitle">Large</div>
                         <div class="my_planPrice">฿4,950 / ปี</div>
                         <div class="my_planDuration">โดเมนเนมฟรี 1 ปี</div>
-                        <a type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=4" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                 </div>
