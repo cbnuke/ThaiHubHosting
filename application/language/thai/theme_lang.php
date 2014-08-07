@@ -5,6 +5,7 @@ $lang['menu_home'] = "หน้าหลัก";
 $lang['menu_hosting'] = "โฮสติ้งแพ็คเกจ";
 $lang['menu_features'] = "คุณสมบัติโฮสติ้ง";
 $lang['menu_customer'] = "ส่วนจัดการลูกค้า";
+$lang['menu_contact'] = "ติดต่อเรา";
 $lang['menu_thai'] = "ไทย";
 $lang['menu_english'] = "อังกฤษ(สหรัฐฯ)";
 

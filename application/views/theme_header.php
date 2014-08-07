@@ -87,6 +87,12 @@
                             echo 'class="active"';
                         }
                         ?>><?php echo anchor('features', '<i class="fa fa-briefcase"></i> ' . lang('menu_features')); ?></li>
+                        <li
+                        <?php
+                        if ($this->router->class == 'contact') {
+                            echo 'class="active"';
+                        }
+                        ?>><?php echo anchor('contact', '<i class="fa fa-comments"></i> ' . lang('menu_contact')); ?></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ' . lang('menu_customer')) ?></li>
