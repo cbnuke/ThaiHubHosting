@@ -42,6 +42,11 @@
                 } else {
                     $('#top-nav').fadeIn();
                 }
+                if ($(this).scrollTop() > $(window).height()-200) {
+                    $('#scroll-top').removeClass('hidden');
+                } else {
+                    $('#scroll-top').addClass('hidden');
+                }
             });
         </script>
         <?php echo google_analytics('UA-53490466-1'); ?>
@@ -54,7 +59,7 @@
                 <p class="text-right" style="margin-top: -20px;">
                     <a id="popoverMail" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านอีเมล์" data-trigger="hover"><i class="fa fa-envelope"></i> Support |</a>
                     <a id="popoverFacebook" class="hidden-xs" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน Facebookpage ThaiHubHosting" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านเพจ" data-trigger="hover"> <i class="fa fa-facebook"></i> ThaiHubHosting |</a>
-                    <a id="popoverMobile" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่านเบอร์ <?=lang('phone_number1')?>" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i> <?=lang('phone_number1')?></a>
+                    <a id="popoverMobile" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่านเบอร์ <?= lang('phone_number1') ?>" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i> <?= lang('phone_number1') ?></a>
                 </p>
             </div>
             <div class="container-fluid">           
