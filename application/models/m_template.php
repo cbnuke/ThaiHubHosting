@@ -11,6 +11,7 @@ Class m_template extends CI_Model {
     private $permission = "ALL";
     private $debud_data = NULL;
     private $lang_value = array('theme');
+    private $version = '1.0';
 
     function set_Debug($data) {
         $this->debud_data = $data;
@@ -59,6 +60,9 @@ Class m_template extends CI_Model {
         foreach ($this->lang_value as $path) {
             $this->lang->load($path, $site_lang); //Load message
         }
+        
+        //Load version for Cache CSS and JS
+        $data['version'] = $this->version;
 
         //--- Redirect to current page ---//
         $data['page'] = $this->uri->segment(1);

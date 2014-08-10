@@ -15,17 +15,17 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <?= img('slide/slide1.jpg') ?>
+            <?= img('slide/slide1.jpg?v='.$version) ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <?= img('thaihubhosting.png', array('class' => 'img-responsive')) ?>
+                    <?= img('thaihubhosting.png?v='.$version, array('class' => 'img-responsive')) ?>
                     <h1>ยินดีต้อนรับสู่ ThaiHubHosting</h1>
                     <p class="lead">ผู้ใช้บริการเว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย พร้อมที่จะให้บริการ กับทุกองค์กร ทุกราชรัฐ หรือทุกท่าน</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <?= img('slide/slide2.jpg') ?>
+            <?= img('slide/slide2.jpg?v='.$version) ?>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>แพ็คเก็จที่จัดสรรตามขนาดขององค์หรือธุรกิจ</h1>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="item">
-            <?= img('idc/idc005_XL.jpg') ?>
+            <?= img('idc/idc005_XL.jpg?v='.$version) ?>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>ให้บริการด้วยเครือข่ายที่ดีที่สุดในประเทศไทย</h1>

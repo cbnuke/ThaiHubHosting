@@ -13,20 +13,20 @@
         <title><?php echo $title; ?></title>
         <!-- Favicons -->
         <link rel="apple-touch-icon-precomposed" sizes="144x144"
-              href="<?= asset_url() ?>img/apple-touch-icon-144-precomposed.png">
-        <link rel="shortcut icon" href="<?= asset_url() ?>img/favicon.ico">
+              href="<?= asset_url() ?>img/apple-touch-icon-144-precomposed.png<?= '?v=' . $version ?>">
+        <link rel="shortcut icon" href="<?= asset_url() ?>img/favicon.ico<?= '?v=' . $version ?>">
         <!-- Bootstrap core CSS ans JS -->
-        <?php echo js('pace.min.js'); ?>
-        <?php echo css('bootstrap.css'); ?>
-        <?php echo css('pace.css'); ?>
-        <?php echo css('theme.css'); ?>
-        <?php echo css('label.min.css'); ?>
-        <?php echo css('segment.min.css'); ?>
-        <?php echo css('font-awesome.css'); ?>
-        <?php echo js('jquery.js'); ?>
-        <?php echo js('bootstrap.js'); ?>
-        <?php echo js('docs.min.js'); ?>
-        <?php echo js('jquery.parallax-1.1.3.js'); ?>
+        <?php echo js('pace.min.js?v=' . $version); ?>
+        <?php echo css('bootstrap.css?v=' . $version); ?>
+        <?php echo css('pace.css?v=' . $version); ?>
+        <?php echo css('theme.css?v=' . $version); ?>
+        <?php echo css('label.min.css?v=' . $version); ?>
+        <?php echo css('segment.min.css?v=' . $version); ?>
+        <?php echo css('font-awesome.css?v=' . $version); ?>
+        <?php echo js('jquery.js?v=' . $version); ?>
+        <?php echo js('bootstrap.js?v=' . $version); ?>
+        <?php echo js('docs.min.js?v=' . $version); ?>
+        <?php echo js('jquery.parallax-1.1.3.js?v=' . $version); ?>
 
         <script type="text/javascript">
             jQuery(window).load(function() {
@@ -42,7 +42,7 @@
                 } else {
                     $('#top-nav').fadeIn();
                 }
-                if ($(this).scrollTop() > $(window).height()/2) {
+                if ($(this).scrollTop() > $(window).height() / 2) {
                     $('#scroll-top').removeClass('hidden');
                 } else {
                     $('#scroll-top').addClass('hidden');
@@ -70,7 +70,7 @@
                             class="icon-bar"></span> <span class="icon-bar"></span> <span
                             class="icon-bar"></span>
                     </button>
-                    <?php echo anchor('home', img('apple-touch-icon-144-precomposed.png', array('height' => '32px', 'style' => 'margin-top:-6px;')) . '<span class="thai">Thai</span><span class="hub">Hub</span><span class="hosting">Hosting</span>', array('class' => 'navbar-brand')); ?>
+                    <?php echo anchor('home', img('apple-touch-icon-144-precomposed.png?v=' . $version, array('height' => '32px', 'style' => 'margin-top:-6px;')) . '<span class="thai">Thai</span><span class="hub">Hub</span><span class="hosting">Hosting</span>', array('class' => 'navbar-brand')); ?>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -113,11 +113,11 @@
                                     $img_path = 'english_us.png';
                                 }
                                 ?>
-                                <?= img($img_path, array('width' => '18px')) ?> <span class="caret"></span>
+                                <?= img($img_path . '?v=' . $version, array('width' => '18px')) ?> <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><?= anchor('lang/english/' . uri_string(), img('english_us.png', array('width' => '18px')) . ' ' . lang('menu_english')) ?></li>
-                                <li><?= anchor('lang/thai/' . uri_string(), img('thai.png', array('width' => '18px')) . ' ' . lang('menu_thai')) ?></li>
+                                <li><?= anchor('lang/english/' . uri_string(), img('english_us.png?v='.$version, array('width' => '18px')) . ' ' . lang('menu_english')) ?></li>
+                                <li><?= anchor('lang/thai/' . uri_string(), img('thai.png?v='.$version, array('width' => '18px')) . ' ' . lang('menu_thai')) ?></li>
                             </ul>
                         </li>
                     </ul>
