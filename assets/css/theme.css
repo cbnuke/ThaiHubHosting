@@ -8,7 +8,7 @@ body {
 }
 
 .content-wrap {
-    display: none;
+    display: block;
 }
 
 .th-top-nav {

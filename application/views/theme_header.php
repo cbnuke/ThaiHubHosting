@@ -30,7 +30,6 @@
 
         <script type="text/javascript">
             jQuery(window).load(function() {
-                $('.content-wrap').fadeIn(1500);
                 $('#intro').parallax("50%", 0.1);
                 $('#popoverMail').popover();
                 $('#popoverFacebook').popover();
