@@ -42,7 +42,7 @@
                 } else {
                     $('#top-nav').fadeIn();
                 }
-                if ($(this).scrollTop() > $(window).height()-200) {
+                if ($(this).scrollTop() > $(window).height()/2) {
                     $('#scroll-top').removeClass('hidden');
                 } else {
                     $('#scroll-top').addClass('hidden');

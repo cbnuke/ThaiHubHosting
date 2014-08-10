@@ -15,7 +15,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-7" id="bestnetwork">
             <h2>
                 เครื่อข่ายที่ดีที่สุดในประเทศ <small>Best network.</small>
             </h2>
@@ -63,7 +63,7 @@
     <hr>
 
     <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-5" id="bestserver">
             <!--<img class="img-responsive" data-src="holder.js/500x500/auto"
                  alt="Generic placeholder image"> -->
             <?= img('server/DellR210.gif', array('class' => 'img-responsive')) ?>            
@@ -85,7 +85,7 @@
     <hr>
 
     <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-7" id="besttools">
             <h2>
                 เครื่องมือพัฒนาตามมาตรฐาน <small>Standard tools.</small>
             </h2>

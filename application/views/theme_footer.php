@@ -7,7 +7,10 @@
             <div class="col-md-3">
                 <h4 style="margin-top: 0px;">Hosting</h4>
                 <ul>
-                    <li>...</li>
+                    <li>Mini ฿650 / ปี</li>
+                    <li>Small ฿1,350 / ปี</li>
+                    <li>Medium ฿2,600 / ปี</li>
+                    <li>Large ฿4,950 / ปี</li>
                 </ul>
             </div>
             <div class="col-md-3">
@@ -18,27 +21,25 @@
                     <li>ต่ออายุโดเมนเนม</li>
                     <li>ระบบจัดการโดเมนเนม</li>
                 </ul>
-
             </div>
             <div class="col-md-3">
                 <h4 style="margin-top: 0px;">Features</h4>
                 <ul>
-                    <li>เครื่อข่ายที่ดีที่สุดในประเทศ</li>
-                    <li>เซิร์ฟเวอร์มาตรฐานโลก</li>
-                    <li>เครื่องมือพัฒนาตามมาตรฐาน</li>
+                    <li><?= anchor('features#bestnetwork', 'เครื่อข่ายที่ดีที่สุดในประเทศ') ?></li>
+                    <li><?= anchor('features#bestserver', 'เซิร์ฟเวอร์มาตรฐานโลก') ?></li>
+                    <li><?= anchor('features#besttools', 'เครื่องมือพัฒนาตามมาตรฐาน') ?></li>
                 </ul>
-
             </div>
             <div class="col-md-3">
                 <h4 style="margin-top: 0px;">Support</h4>
                 <ul>
                     <li><?= anchor('terms', 'ข้อตกลงและเงื่อนไขการใช้บริการ') ?></li>
-                    <li>ติดต่อเรา</li>
-                    <li>ติดต่อผ่านระบบจัดการลูกค้า (Ticket)</li>
+                    <li><?= anchor('contact', 'ติดต่อเรา') ?></li>
+                    <li>ติดต่อผ่านระบบจัดการลูกค้า</li>
                     <ul>
-                        <li>Billing Support - แจ้งการชำระเงิน</li>
-                        <li>Sales Support - ฝ่ายขาย</li>
-                        <li>Support - ผ่ายบริการลูกค้า</li>
+                        <li><?= anchor('customer/submitticket.php?step=2&deptid=1', 'แจ้งการชำระเงิน') ?></li>
+                        <li><?= anchor('customer/submitticket.php?step=2&deptid=2', 'ฝ่ายขาย') ?></li>
+                        <li><?= anchor('customer/submitticket.php?step=2&deptid=3', 'ผ่ายบริการลูกค้า') ?></li>
                     </ul>
                 </ul>
             </div>

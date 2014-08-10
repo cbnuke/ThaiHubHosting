@@ -139,7 +139,7 @@ body {
 }
 .th-footer {
     margin: 0px;
-    padding: 20px 20px;
+    padding: 20px 20px 0px 20px;
     color: #d7f2ff;
     text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
     background-color: #3fb0e7;
