@@ -7,10 +7,10 @@
             <div class="col-md-3">
                 <h4 style="margin-top: 0px;">Hosting</h4>
                 <ul>
-                    <li>Mini ฿650 / ปี</li>
-                    <li>Small ฿1,350 / ปี</li>
-                    <li>Medium ฿2,600 / ปี</li>
-                    <li>Large ฿4,950 / ปี</li>
+                    <li><?= anchor('hosting', 'Mini ฿650 / ปี') ?></li>
+                    <li><?= anchor('hosting', 'Small ฿1,350 / ปี') ?></li>
+                    <li><?= anchor('hosting', 'Medium ฿2,600 / ปี') ?></li>
+                    <li><?= anchor('hosting', 'Large ฿4,950 / ปี') ?></li>
                 </ul>
             </div>
             <div class="col-md-3">
