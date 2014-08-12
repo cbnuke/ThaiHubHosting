@@ -38,8 +38,10 @@
             $(window).scroll(function() {
                 if ($(this).scrollTop() > 30) { //use `this`, not `document`
                     $('#top-nav').fadeOut();
+                    $(".pace-progress").css("margin-top", "50px");
                 } else {
                     $('#top-nav').fadeIn();
+                    $(".pace-progress").css("margin-top", "74px");
                 }
                 if ($(this).scrollTop() > $(window).height() / 2) {
                     $('#scroll-top').removeClass('hidden');

@@ -15,17 +15,17 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <?= img('slide/slide1.jpg?v='.$version) ?>
+            <?= img('slide/slide1.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <?= img('thaihubhosting.png?v='.$version, array('class' => 'img-responsive')) ?>
+                    <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
                     <h1>ยินดีต้อนรับสู่ ThaiHubHosting</h1>
                     <p class="lead">ผู้ใช้บริการเว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย พร้อมที่จะให้บริการ กับทุกองค์กร ทุกราชรัฐ หรือทุกท่าน</p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <?= img('slide/slide2.jpg?v='.$version) ?>
+            <?= img('slide/slide2.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>แพ็คเก็จที่จัดสรรตามขนาดขององค์หรือธุรกิจ</h1>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="item">
-            <?= img('idc/idc005_XL.jpg?v='.$version) ?>
+            <?= img('idc/idc005_XL.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>ให้บริการด้วยเครือข่ายที่ดีที่สุดในประเทศไทย</h1>
@@ -58,12 +58,18 @@
 
 <div class="container marketing">
     <div class="row featurette">
-        <div class="col-md-12">
+        <div class="col-md-8">
             <div class="ui piled segment">
                 <h2 class="featurette-heading">บริการโฮสติ้ง</h2>
                 <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราคือผู้ให้บริการโฮสติ้งคุณภาพดีได้มาตราฐาน ด้วยทีมงานที่มีประสิทธิภาพ หมดปัญหาเรื่องค่าใช้จ่ายสำหรับผู้ไม่มีเซิร์ฟเวอร์ นอกจากนี้เรายังมีแพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของลูกค้าได้อย่างลงตัว เพื่อการใช้งานได้อย่างเต็มประสิทธิภาพ</p>
                 <p><?= anchor('features', '<i class="fa fa-heart"></i> ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?></p>
             </div>     
+        </div>
+        <div class="col-md-4">
+            <div class="ui green segment">
+                <div class="ui ribbon green label"><h3 style="margin-top: 4px;margin-bottom: 0px;">การรับรองความน่าเชื่อถือ</h3></div>
+                <p>ไทยฮับโฮสติ้งได้จดทะเบียนพานิชย์และเสียภาษีถูกต้องตามกฏหมาย</p>
+            </div>
         </div>
     </div>
 </div>
@@ -263,7 +269,7 @@
             <p style="margin: 0px;">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa fa-mobile fa-stack-1x"></i>
-                </span>085-0247205
+                </span><?= lang('phone_number1') ?>
             </p>
         </div>
     </div>
