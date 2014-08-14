@@ -25,9 +25,9 @@
             <div class="col-md-3">
                 <h4 style="margin-top: 0px;">Features</h4>
                 <ul>
-                    <li><?= anchor('features#bestnetwork', 'เครื่อข่ายที่ดีที่สุดในประเทศ') ?></li>
-                    <li><?= anchor('features#bestserver', 'เซิร์ฟเวอร์มาตรฐานโลก') ?></li>
-                    <li><?= anchor('features#besttools', 'เครื่องมือพัฒนาตามมาตรฐาน') ?></li>
+                    <li><?= anchor('features#bestnetwork', lang('bestnetwork')) ?></li>
+                    <li><?= anchor('features#bestserver', lang('bestserver')) ?></li>
+                    <li><?= anchor('features#besttools', lang('besttools')) ?></li>
                 </ul>
             </div>
             <div class="col-md-3">

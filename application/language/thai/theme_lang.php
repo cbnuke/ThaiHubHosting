@@ -10,3 +10,8 @@ $lang['menu_thai'] = "ไทย";
 $lang['menu_english'] = "อังกฤษ(สหรัฐฯ)";
 
 $lang['phone_number1'] = "088-561-2209";
+
+//--- Footer ---//
+$lang['bestnetwork'] = "เครื่อข่ายที่ดีที่สุดในประเทศ";
+$lang['bestserver'] = "เซิร์ฟเวอร์มาตรฐานโลก";
+$lang['besttools'] = "เครื่องมือพัฒนาตามมาตรฐาน";

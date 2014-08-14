@@ -12,3 +12,6 @@ $lang['menu_english'] = "ENGLISH(US)";
 $lang['phone_number1'] = "(+66)88-561-2209";
 
 //--- Footer ---//
+$lang['bestnetwork'] = "Best network";
+$lang['bestserver'] = "High end server";
+$lang['besttools'] = "Standard tools";
