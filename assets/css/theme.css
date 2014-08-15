@@ -1,5 +1,13 @@
 body {
     padding-top: 70px;
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(left,  #eeeeee 0%, #ffffff 7%, #ffffff 93%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#eeeeee), color-stop(7%,#ffffff), color-stop(93%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  #eeeeee 0%,#ffffff 7%,#ffffff 93%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  #eeeeee 0%,#ffffff 7%,#ffffff 93%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  #eeeeee 0%,#ffffff 7%,#ffffff 93%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to right,  #eeeeee 0%,#ffffff 7%,#ffffff 93%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 */
 }
 @media print {
     body {

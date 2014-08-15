@@ -60,7 +60,7 @@
     <div class="row featurette">
         <div class="col-md-8">
             <div class="ui piled segment">
-                <h2 class="featurette-heading">บริการโฮสติ้ง</h2>
+                <h2 class="featurette-heading">ยินดีต้อนรับสู่ ไทยฮับโฮสติ้ง</h2>
                 <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราคือผู้ให้บริการโฮสติ้งคุณภาพดีได้มาตราฐาน ด้วยทีมงานที่มีประสิทธิภาพ หมดปัญหาเรื่องค่าใช้จ่ายสำหรับผู้ไม่มีเซิร์ฟเวอร์ นอกจากนี้เรายังมีแพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของลูกค้าได้อย่างลงตัว เพื่อการใช้งานได้อย่างเต็มประสิทธิภาพ</p>
                 <p><?= anchor('features', '<i class="fa fa-heart"></i> ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?></p>
             </div>     
@@ -68,7 +68,10 @@
         <div class="col-md-4">
             <div class="ui green segment">
                 <div class="ui ribbon green label"><h3 style="margin-top: 4px;margin-bottom: 0px;">การรับรองความน่าเชื่อถือ</h3></div>
-                <p>ไทยฮับโฮสติ้งได้จดทะเบียนพานิชย์และเสียภาษีถูกต้องตามกฏหมาย</p>
+                <p>ไทยฮับโฮสติ้งได้จดทะเบียนพาณิชย์อิเล็กทรอนิกส์และเสียภาษีถูกต้องตามกฏหมาย</p>
+                <div class="ui teal label">
+                    <i class="mail icon"></i> เลขทะเบียนพานิชย์ <span style="font-weight: lighter;">1369900182435</span>
+                </div>
             </div>
         </div>
     </div>
