@@ -9,6 +9,7 @@
         <meta name="description"
               content="เว็บโฮสติ้งคุณภาพสูง ที่ได้รับการออกแบบติดตั้งและผู้แลจากผู้เชี่ยวชาญตลอด 24 ชั่วโมง">
         <meta name="author" content="CBNUKE">
+        <meta property="og:image" content="<?= img_url().'facebook_thumb.jpg'?>" />
 
         <title><?php echo $title; ?></title>
         <!-- Favicons -->
