@@ -9,7 +9,15 @@
         <meta name="description"
               content="เว็บโฮสติ้งคุณภาพสูง ที่ได้รับการออกแบบติดตั้งและผู้แลจากผู้เชี่ยวชาญตลอด 24 ชั่วโมง">
         <meta name="author" content="CBNUKE">
-        <meta property="og:image" content="<?= img_url().'facebook_thumb.jpg'?>" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ThaiHubHosting เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย" />
+        <meta property="og:description" content="เว็บโฮสติ้งคุณภาพสูง ที่ได้รับการออกแบบติดตั้งและผู้แลจากผู้เชี่ยวชาญตลอด 24 ชั่วโมง" />
+        <meta property="og:url" content="https://www.thaihubhosting.com/" />
+        <meta property="og:site_name" content="ThaiHubHosting" />
+        <meta property="article:publisher" content="https://www.facebook.com/thaihubhosting" />
+        <meta property="og:image" content="<?= img_url() . 'facebook_thumb.jpg' ?>" />
+
 
         <title><?php echo $title; ?></title>
         <!-- Favicons -->
@@ -119,8 +127,8 @@
                                 <?= img($img_path . '?v=' . $version, array('width' => '18px')) ?> <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><?= anchor('lang/english/' . uri_string(), img('english_us.png?v='.$version, array('width' => '18px')) . ' ' . lang('menu_english')) ?></li>
-                                <li><?= anchor('lang/thai/' . uri_string(), img('thai.png?v='.$version, array('width' => '18px')) . ' ' . lang('menu_thai')) ?></li>
+                                <li><?= anchor('lang/english/' . uri_string(), img('english_us.png?v=' . $version, array('width' => '18px')) . ' ' . lang('menu_english')) ?></li>
+                                <li><?= anchor('lang/thai/' . uri_string(), img('thai.png?v=' . $version, array('width' => '18px')) . ' ' . lang('menu_thai')) ?></li>
                             </ul>
                         </li>
                     </ul>
