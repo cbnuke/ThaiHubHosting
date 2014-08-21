@@ -6,7 +6,7 @@
         });
     });
 </script>
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide animated bounceInDown">
     <!-- Indicators -->
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -15,19 +15,20 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <?= img('slide/slide1.jpg?v=' . $version) ?>
+            <?= img('slide/slide0.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
                     <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
-                    <h1>ยินดีต้อนรับสู่ ThaiHubHosting</h1>
-                    <p class="lead">ผู้ใช้บริการเว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย พร้อมที่จะให้บริการ กับทุกองค์กร ทุกราชรัฐ หรือทุกท่าน</p>
+                    <h1><span class="color-black">ยินดีต้อนรับสู่ Thai</span><span class="color-sky">Hub</span><span class="color-orange">Hosting</span></h1>
+                    <p class="lead ui green label" style="font-size:20px;">ผู้ใช้บริการเว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย <span class="hidden-xs">พร้อมที่จะให้บริการ กับทุกองค์กร ทุกราชรัฐ หรือทุกท่าน</span></p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <?= img('slide/slide2.jpg?v=' . $version) ?>
+            <?= img('slide/slide1.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
+                    <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
                     <h1>แพ็คเก็จที่จัดสรรตามขนาดขององค์หรือธุรกิจ</h1>
                     <p class="lead">เพื่อให้ง่ายต่อการเลือกใช้บริการของลูกค้า และตอบสนองต่อความต้องการอย่างถูกต้อง</p>
                     <p>
@@ -40,6 +41,7 @@
             <?= img('idc/idc005_XL.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
+                    <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
                     <h1>ให้บริการด้วยเครือข่ายที่ดีที่สุดในประเทศไทย</h1>
                     <p class="lead">ไทยฮับโฮสติ้ง ได้คัดเลือกเครื่อข่ายที่ดีที่สุดสำหรับให้บริการแก่ลูกค้าของเรา</p>
                     <p>
@@ -58,14 +60,14 @@
 
 <div class="container marketing">
     <div class="row featurette">
-        <div class="col-md-8">
+        <div class="col-md-8 animated bounceInLeft">
             <div class="ui piled segment">
                 <h2 class="featurette-heading">ยินดีต้อนรับสู่ ไทยฮับโฮสติ้ง</h2>
                 <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราคือผู้ให้บริการโฮสติ้งคุณภาพดีได้มาตราฐาน ด้วยทีมงานที่มีประสิทธิภาพ หมดปัญหาเรื่องค่าใช้จ่ายสำหรับผู้ไม่มีเซิร์ฟเวอร์ นอกจากนี้เรายังมีแพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของลูกค้าได้อย่างลงตัว เพื่อการใช้งานได้อย่างเต็มประสิทธิภาพ</p>
                 <p><?= anchor('features', '<i class="fa fa-heart"></i> ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?></p>
             </div>     
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 animated bounceInRight">
             <div class="ui green segment">
                 <div class="ui ribbon green label"><h3 style="margin-top: 4px;margin-bottom: 0px;">การรับรองความน่าเชื่อถือ</h3></div>
                 <p>ไทยฮับโฮสติ้งได้จดทะเบียนพาณิชย์อิเล็กทรอนิกส์และเสียภาษีถูกต้องตามกฏหมาย</p>
@@ -77,7 +79,7 @@
     </div>
 </div>
 
-<div class="container marketing">
+<div class="container marketing animated bounceInUp">
     <h2 class="featurette-heading">บริการจดโดเมนกับผู้ให้บริการระดับโลก <span class="text-muted">ผ่าน Resellerclub</span></h2>
     <div class="row featurette">
         <div class="col-md-6">

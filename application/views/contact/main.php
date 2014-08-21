@@ -1,5 +1,5 @@
 <div class="container" style="margin-top: 40px;padding-bottom: 30px;">
-    <div class="ui blue segment">
+    <div class="ui blue segment animated bounceInLeft">
         <div class="ui ribbon blue label"><h3 style="margin-top: 4px;margin-bottom: 0px;">ติดต่อเรา <small>Contant</small></h3></div>
         <p> </p>
         <blockquote class="th-callout-success">
@@ -10,7 +10,7 @@
     </div>
 
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 animated bounceInUp">
             <div class="ui teal segment">
                 <div class="ui ribbon teal label"><h3 style="margin-top: 4px;margin-bottom: 0px;">ติดต่อผ่านระบบลูกค้า <small>Support Ticket</small></h3></div>
                 <ul class="media-list" style="margin-top: 10px;">
@@ -44,7 +44,7 @@
                 </ul>            
             </div> 
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 animated bounceInRight">
             <div class="ui green segment">
                 <div class="ui ribbon green label"><h3 style="margin-top: 4px;margin-bottom: 0px;">ติดต่อผ่านช่องทางอื่น <small>Other</small></h3></div>
                 <ul class="media-list" style="margin-top: 10px;">

@@ -23,6 +23,7 @@
         <?php echo css('label.min.css?v=' . $version); ?>
         <?php echo css('segment.min.css?v=' . $version); ?>
         <?php echo css('font-awesome.css?v=' . $version); ?>
+        <?php echo css('animate.css?v=' . $version); ?>
         <?php echo js('jquery.js?v=' . $version); ?>
         <?php echo js('bootstrap.js?v=' . $version); ?>
         <?php echo js('docs.min.js?v=' . $version); ?>

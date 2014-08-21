@@ -41,6 +41,18 @@ body {
 .color-black {
     color: #333;
 }
+.color-sky {
+    color: #29d;
+}
+.color-orange {
+    color: #e78720;
+}
+.color-gray {
+    color: #d3d3d3;
+}
+.color-green {
+    color: #a1cf64;
+}
 
 .th-nav {
     background-image: -webkit-linear-gradient(top, #fff 0%, #fff 100%);

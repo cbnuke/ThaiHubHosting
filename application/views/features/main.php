@@ -1,7 +1,7 @@
 <div class="th-docs-header">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 animated bounceInRight">
                 <h1>
                     คุณสมบัติของโฮสติ้ง <small>Features.</small>
                 </h1>
@@ -15,7 +15,7 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-7" id="bestnetwork">
+        <div class="col-md-7 animated bounceInDown" id="bestnetwork">
             <h2>
                 เครื่อข่ายที่ดีที่สุดในประเทศ <small>Best network.</small>
             </h2>
@@ -32,7 +32,7 @@
             </blockquote>
             <p>ข้อมูลจาก : <?= anchor('http://www.csloxinfo.com', 'http://www.csloxinfo.com') ?></p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 animated bounceInRight">
             <div id="carousel-idc" class="carousel slide" data-ride="carousel" style="max-height: 333px !important;">
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" style="max-height: 333px !important;">
@@ -63,12 +63,12 @@
     <hr>
 
     <div class="row">
-        <div class="col-md-5" id="bestserver">
+        <div class="col-md-5 animated bounceInLeft" id="bestserver">
             <!--<img class="img-responsive" data-src="holder.js/500x500/auto"
                  alt="Generic placeholder image"> -->
             <?= img('server/DellR210.gif', array('class' => 'img-responsive')) ?>            
         </div>
-        <div class="col-md-7">
+        <div class="col-md-7 animated bounceInUp">
             <h2>
                 เซิร์ฟเวอร์มาตรฐานโลก <small>High end server.</small>
             </h2>

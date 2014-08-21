@@ -2,7 +2,7 @@
     <div class="th-docs-hosting" style="margin-bottom: -20px;">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 animated pulse">
                     <h1 class="text-center">
                         โฮสติ้งแพ็คเกจ <small>Hosting.</small>
                     </h1>
@@ -16,14 +16,14 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6" style="margin-top: 20px;">
+            <div class="col-md-6 animated bounceInDown" style="margin-top: 20px;">
                 <div class="ui teal segment">
                     <div class="ui teal ribbon label">Mini</div>
                     <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับผู้เริ่มใช้งานหรือธุรกิจขนาดเล็ก
                         ที่มีความต้องการใช้งานน้อยและประหยัดค่าใช้จ่าย</p>
                 </div>
             </div>
-            <div class="col-md-6" style="margin-top: 20px;">
+            <div class="col-md-6 animated bounceInRight" style="margin-top: 20px;">
                 <div class="ui orange segment">
                     <div class="ui orange ribbon label">Small</div>
                     <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับบริการหรือธุรกิจขนาดกลาง
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6" style="margin-top: 20px;">
+            <div class="col-md-6 animated bounceInLeft" style="margin-top: 20px;">
                 <div class="ui red segment">
                     <div class="ui red ribbon label">Medium</div>
                     <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับภาครัฐหรือเอกชนที่ต้องการความน่าเชื่อถือ
@@ -40,7 +40,7 @@
                         อีกทั้งยังสามารถเก็บข้อมูลได้หลายเว็บไซต์ในหนึ่งแพ็คเกจ</p>
                 </div>
             </div>
-            <div class="col-md-6" style="margin-top: 20px;">
+            <div class="col-md-6 animated bounceInUp" style="margin-top: 20px;">
                 <div class="ui blue segment">
                     <div class="ui blue ribbon label">Large</div>
                     <p class="color-black">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เหมาะสำหรับผู้ใช้ที่ต้องการใช้งาน เก็บข้อมูลมากเป็นพิเศษ
