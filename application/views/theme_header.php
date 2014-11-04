@@ -81,7 +81,7 @@
                             class="icon-bar"></span> <span class="icon-bar"></span> <span
                             class="icon-bar"></span>
                     </button>
-                    <?php echo anchor('home', img('apple-touch-icon-144-precomposed.png?v=' . $version, array('height' => '32px', 'style' => 'margin-top:-6px;')) . '<span class="thai">Thai</span><span class="hub">Hub</span><span class="hosting">Hosting</span>', array('class' => 'navbar-brand')); ?>
+                    <?php echo anchor('home', img('apple-touch-icon-144-precomposed.png?v=' . $version, array('height' => '32px', 'style' => 'margin-top:-6px; margin-right:4px; float:left;')) . ' <span class="thai">Thai</span><span class="hub">Hub</span><span class="hosting">Hosting</span>', array('class' => 'navbar-brand')); ?>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">

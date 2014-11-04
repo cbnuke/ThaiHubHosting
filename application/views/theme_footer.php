@@ -1,7 +1,7 @@
 <ul class="nav pull-right scroll-top hidden" id="scroll-top">
     <li><a href="#" id="top"><i class="fa fa-arrow-circle-up fa-3x"></i></a></li>
 </ul>
-<footer class="th-footer hidden-print">
+<footer class="th-footer hidden-print hidden-xs">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">

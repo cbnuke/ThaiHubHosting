@@ -98,16 +98,16 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="text">1GB</span>
+                        <span class="text">5GB</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="text">3GB</span>
+                        <span class="text">10GB</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="text">7GB</span>
+                        <span class="text">20GB</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="text">12GB</span>
+                        <span class="text">40GB</span>
                     </div>
                 </div>
             </div>
@@ -117,13 +117,13 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="text">10GB/เดือน</span>
+                        <span class="text">30GB/เดือน</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="text">50GB/เดือน</span>
+                        <span class="text">150GB/เดือน</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="text">250GB/เดือน</span>
+                        <span class="text">750GB/เดือน</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan4">
                         <span class="text">ไม่จำกัด</span>
@@ -323,7 +323,7 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-12 my_planFeature all_plan">
-                        <span class="text">CentOS 6.5</span>
+                        <span class="text">CentOS 6.6</span>
                     </div>             
                 </div>
             </div>

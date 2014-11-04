@@ -89,7 +89,7 @@
             <h2>
                 เครื่องมือพัฒนาตามมาตรฐาน <small>Standard tools.</small>
             </h2>
-            <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CentOS 6.5 ระบบปฏิบัติการที่เสถียรที่สุดในการทำเว็บเซิร์ฟเวอร์</p>
+            <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CentOS 6.6 ระบบปฏิบัติการที่เสถียรที่สุดในการทำเว็บเซิร์ฟเวอร์</p>
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Apache 2.4 MPM
                 prefork เพื่อการทำงานมัลติเทรดและการตอบสนองที่รวดเร็ว</p>
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP 5.4

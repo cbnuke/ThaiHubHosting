@@ -1,7 +1,7 @@
 <script>
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
         $('.carousel').carousel({interval: 4000});
-        $("#btn_packet").click(function() {
+        $("#btn_packet").click(function () {
             $('html, body').animate({scrollTop: $("#packet").offset().top - 50}, 1000);
         });
     });
@@ -123,7 +123,8 @@
 <section class="container marketing" id="packet">
     <h2 class="featurette-heading">
         แพ็คเก็จโฮสติ้งที่เราให้บริการ <span class="text-muted">จัดสรรตามขนาดของธุรกิจ</span>
-    </h2>
+        <span class="label label-warning">Power up without fee <span class="glyphicon glyphicon-thumbs-up"></span></span>
+    </h2>    
     <div class="row">
         <div class="col-md-3">
             <div class="panel panel-success">
@@ -135,8 +136,8 @@
                     <p class="lead" style="font-size:40px"> &nbsp;<strong> ฿650 / <?= lang('year') ?> </strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 1GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 10GB / <?= lang('month') ?></li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> <del>1GB</del> <strong>5GB</strong></li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> <del>10GB</del> <strong>30GB / <?= lang('month') ?></strong></li>
                     <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 1</li>
                     <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> -</li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 2</li>
@@ -165,8 +166,8 @@
                     <p class="lead" style="font-size:40px"><strong>฿1,350 / <?= lang('year') ?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 3GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 50GB / <?= lang('month') ?></li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> <del>3GB</del> <strong>10GB</strong></li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> <del>50GB</del> <strong>150GB / <?= lang('month') ?></strong></li>
                     <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 3</li>
                     <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database 4</li>
@@ -195,8 +196,8 @@
                     <p class="lead" style="font-size:40px"><strong>฿2,600 / <?= lang('year') ?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 7GB</li>
-                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> 250GB / <?= lang('month') ?></li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> <del>7GB</del> <strong>20GB</strong></li>
+                    <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> <del>250GB</del> <strong>750GB / <?= lang('month') ?></strong></li>
                     <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 6</li>
                     <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
                     <li class="list-group-item"><i class="fa fa-database"></i> Mysql Database ไม่จำกัด</li>
@@ -225,7 +226,7 @@
                     <p class="lead" style="font-size:40px"><strong>฿4,950 / <?= lang('year') ?></strong></p>
                 </div>
                 <ul class="list-group list-group-flush text-center">
-                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> 12GB</li>
+                    <li class="list-group-item"><i class="fa fa-archive"></i> <?= lang('storage') ?> <del>12GB</del> <strong>40GB</strong></li>
                     <li class="list-group-item"><i class="fa fa-cloud-download"></i> <?= lang('bandwidth') ?> <?= lang('unlimited') ?></li>
                     <li class="list-group-item"><i class="fa fa-cubes"></i> <?= lang('domain') ?> 9</li>
                     <li class="list-group-item"><i class="fa fa-check"></i> <?= lang('free_domain') ?> 1 <?= lang('year') ?></li>
@@ -252,15 +253,15 @@
 <div class="container marketing">
     <!-- START THE FEATURETTES -->
     <div class="row featurette">
-        <div class="col-md-7">
+        <div class="col-md-8">
             <h2 class="featurette-heading">บริการหลังการขายใส่ใจตลอด 24 ชม. <span class="text-muted">ตลอดอายุการใช้งาน</span>
             </h2>
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;จากประสบการ์ณการทำงานด้านเว็บโฮสติ้งยาวนาน ทำให้เข้าใจถึงปัญหาของการบริการ หมดปัญหาการบริการหลังการขายที่ไม่ได้ประสิทธิภาพ ด้วยการดูแล 24 ชม. ตลอดอายุการใช้งาน</p>
             <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;รองรับ Uptime 99% และรองรับการแก้ไขปัญหา 24 ชม. เพื่อให้ลูกค้าได้ใช้งานเต็มประสิทธิภาพ</p>
-        </div>
-        <div class="col-md-5" style="padding-top: 40px;">
-            <h2><span class="label label-info"><i class="fa fa-refresh fa-spin"></i> Uptime 99%</span></h2>
-            <h2><span class="label label-success"><i class="fa fa-wrench"></i> Service 24/7</span></h2>
+            <div style="display: inline-block;">
+                <h2 style="float: left;"><span class="label label-info"><i class="fa fa-refresh fa-spin"></i> Uptime 99%</span></h2>
+                <h2 style="float: left;"><span class="label label-success"><i class="fa fa-wrench"></i> Service 24/7</span></h2>
+            </div>
             <p style="margin-top:20px; margin-bottom: 0px;">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-envelope fa-stack-1x"></i>
@@ -277,30 +278,26 @@
                 </span><?= lang('phone_number1') ?>
             </p>
         </div>
-    </div>
-    <hr class="featurette-divider">
-</div>
-
-<div class="container marketing">
-    <div class="row col-md-6">
-        <div class="fb-like-box" 
-             data-href="https://www.facebook.com/thaihubhosting" 
-             data-colorscheme="light" 
-             data-show-faces="true" 
-             data-header="false" 
-             data-stream="true" 
-             data-show-border="true"
-             data-width="350px"
-             >
+        <div class="row col-md-4">
+            <div class="fb-like-box" 
+                 data-href="https://www.facebook.com/thaihubhosting" 
+                 data-colorscheme="light" 
+                 data-show-faces="true" 
+                 data-header="false" 
+                 data-stream="true" 
+                 data-show-border="true"
+                 data-width="350px"
+                 >
+            </div>
+            <script>(function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id))
+                        return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
         </div>
-        <script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id))
-                    return;
-                js = d.createElement(s);
-                js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
     </div>
 </div>
