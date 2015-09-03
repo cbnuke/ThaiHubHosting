@@ -304,7 +304,7 @@
         <div class="col-md-3">
             <div class="panel panel-warning">
                 <div class="panel-heading">
-                    <div class="ui orange ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_best') ?></div>
+                    <div class="ui orange ribbon label" style="position: absolute;margin-left: 26px;"><?= lang('label_best') ?></div>
                     <h3 class="text-center">Small Plan</h3>
                 </div>
                 <div class="panel-body text-center">
