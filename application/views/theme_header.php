@@ -33,19 +33,22 @@
         <?php echo css('segment.min.css?v=' . $version); ?>
         <?php echo css('font-awesome.css?v=' . $version); ?>
         <?php echo css('animate.css?v=' . $version); ?>
+        <?php echo css('jquery.animateSlider.css?v=' . $version); ?>
+        <?php echo css('demo1.css?v=' . $version); ?>
         <?php echo js('jquery.js?v=' . $version); ?>
         <?php echo js('bootstrap.js?v=' . $version); ?>
         <?php echo js('docs.min.js?v=' . $version); ?>
-        <?php echo js('jquery.parallax-1.1.3.js?v=' . $version); ?>
+        <?php echo js('modernizr.js?v=' . $version); ?>
+        <?php echo js('jquery.animateSlider.min.js?v=' . $version); ?>
 
         <script type="text/javascript">
-            jQuery(window).load(function() {
+            jQuery(window).load(function () {
                 $('#intro').parallax("50%", 0.1);
                 $('#popoverMail').popover();
                 $('#popoverFacebook').popover();
                 $('#popoverMobile').popover();
             });
-            $(window).scroll(function() {
+            $(window).scroll(function () {
                 if ($(this).scrollTop() > 30) { //use `this`, not `document`
                     $('#top-nav').fadeOut();
                     $(".pace-progress").css("margin-top", "50px");
@@ -96,7 +99,8 @@
                         if ($this->router->class == 'hosting') {
                             echo 'class="active"';
                         }
-                        ?>><?php echo anchor('hosting', '<i class="fa fa-shopping-cart"></i> ' . lang('menu_hosting')); ?></li>
+                        ?>><?php echo anchor('hosting', '<i class="fa fa-tags"></i> ' . lang('menu_hosting')); ?></li>
+                        <li><a href="http://localhost/ThaiHubHosting/hosting"><i class="fa fa-globe"></i> โดเมนเนม</a></li>
                         <li
                         <?php
                         if ($this->router->class == 'features') {
@@ -109,6 +113,15 @@
                             echo 'class="active"';
                         }
                         ?>><?php echo anchor('contact', '<i class="fa fa-comments"></i> ' . lang('menu_contact')); ?></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> Support <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"><i class="fa fa-money"></i> แจ้งการชำระค่าบริการ</a></li>
+                                <li><a href="#"><i class="fa fa-truck"></i> แจ้งปัญหาการบริการ</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#"><i class="fa fa-suitcase"></i> สอบถามข้อมูลเพิ่มเติ่ม</a></li>
+                            </ul>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ' . lang('menu_customer')) ?></li>

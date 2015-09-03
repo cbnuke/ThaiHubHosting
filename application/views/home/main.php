@@ -4,8 +4,153 @@
         $("#btn_packet").click(function () {
             $('html, body').animate({scrollTop: $("#packet").offset().top - 50}, 1000);
         });
+
+        $(".anim-slider").animateSlider(
+                {
+                    autoplay: true,
+                    interval: 5500,
+                    animations:
+                            {
+                                0: //Slide No1
+                                        {
+                                            li:
+                                                    {
+                                                        show: "fadeIn",
+                                                        hide: "fadeOutLeftBig",
+                                                        delayShow: "delay0.5s"
+                                                    },
+                                            "#looks":
+                                                    {
+                                                        show: "rotateInUpLeft",
+                                                        delayShow: "delay1s"
+                                                    },
+                                            "#amazing":
+                                                    {
+                                                        show: "rotateInUpLeft",
+                                                        delayShow: "delay1-5s"
+                                                    },
+                                            "#place":
+                                                    {
+                                                        show: "rotateInUpLeft",
+                                                        delayShow: "delay2s"
+                                                    },
+                                            "#thh":
+                                                    {
+                                                        show: "lightSpeedIn",
+                                                        delayShow: "delay2s"
+                                                    }
+                                        },
+                                1: //Slide No2
+                                        {
+                                            li:
+                                                    {
+                                                        show: "fadeInLeft",
+                                                        hide: "fadeOutLeftBig",
+                                                        delayShow: "delay0-5s"
+                                                    },
+                                            "#img1":
+                                                    {
+                                                        show: "fadeInRight",
+                                                        delayShow: "delay2s"
+                                                    },
+                                            "#img2":
+                                                    {
+                                                        show: "fadeInLeft",
+                                                        delayShow: "delay3s"
+
+                                                    },
+                                            "#img3":
+                                                    {
+                                                        show: "fadeInRight",
+                                                        hide: "fadeOutLeftBig",
+                                                        delayShow: "delay4s"
+                                                    }
+                                        },
+                                2:
+                                        {
+                                            li:
+                                                    {
+                                                        show: "fadeInUp",
+                                                        hide: "fadeOutDownBig",
+                                                        delayShow: "delay0-5s"
+                                                    },
+                                            "#T":
+                                                    {
+                                                        show: "slideInLeft",
+                                                        delayShow: "delay1-5s"
+                                                    },
+                                            "#r":
+                                                    {
+                                                        show: "bounceInRight",
+                                                        delayShow: "delay2s"
+                                                    },
+                                            "#y":
+                                                    {
+                                                        show: "fadeInRight",
+                                                        delayShow: "delay2-5s"
+                                                    },
+                                            "#i":
+                                                    {
+                                                        show: "rollIn",
+                                                        delayShow: "delay3s"
+                                                    },
+                                            "#t":
+                                                    {
+                                                        show: "rollIn",
+                                                        delayShow: "delay3s"
+                                                    },
+                                            "#mark":
+                                                    {
+                                                        show: "rotateIn",
+                                                        delayShow: "delay3-5s"
+                                                    },
+                                        }
+                            }
+                });
     });
 </script>
+<div class="row">
+    <ul class="anim-slider">
+
+        <!-- Slide No1 -->
+        <li class="anim-slide">
+            <h1 id="looks">LOOKS</h1>
+            <h1 id="amazing">PRETTY AMAZING</h1>
+            <h1 id="place">PLACE</h1>
+            <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive','id'=>'thh')) ?>
+        </li>
+
+
+        <!-- Slide No2 -->
+        <li class="anim-slide">
+            <div id="img1"></div>
+            <div id="img2"></div>
+            <div id="img3"></div>
+        </li>
+
+        <!-- Slide No3 -->
+        <li class="anim-slide">
+            <h1 id="T">T</h1>
+            <h1 id="r">r</h1>
+            <h1 id="y">y</h1>
+            <h1 id="i">i</h1>
+            <h1 id="t">t</h1>
+            <h1 id="mark">!</h1>
+        </li>
+
+        <!-- Arrows -->
+        <nav class="anim-arrows">
+            <span class="anim-arrows-prev">
+                <i class="fa fa-angle-left fa-3x"></i>
+            </span>
+            <span class="anim-arrows-next">
+                <i class="fa fa-angle-right fa-3x"></i>
+            </span>
+        </nav>
+        <!-- Dynamically created dots -->
+
+    </ul>
+</div>
 <div id="myCarousel" class="carousel slide animated bounceInDown">
     <!-- Indicators -->
     <ol class="carousel-indicators">

@@ -100,20 +100,20 @@ body {
 .thai {
     color: #000;
     margin-left: -6px;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 36px;
+    line-height: 20px;
 }
 
 .hub {
     color: #29d;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 36px;
+    line-height: 20px;
 }
 
 .hosting {
     color: #e78720;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 36px;
+    line-height: 20px;
 }
 
 .th-callout-danger {
