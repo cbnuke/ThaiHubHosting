@@ -34,7 +34,7 @@
         <?php echo css('font-awesome.css?v=' . $version); ?>
         <?php echo css('animate.css?v=' . $version); ?>
         <?php echo css('jquery.animateSlider.css?v=' . $version); ?>
-        <?php echo css('demo1.css?v=' . $version); ?>
+        <?php echo css('style_slide.css?v=' . $version); ?>
         <?php echo js('jquery.js?v=' . $version); ?>
         <?php echo js('bootstrap.js?v=' . $version); ?>
         <?php echo js('docs.min.js?v=' . $version); ?>
@@ -43,7 +43,6 @@
 
         <script type="text/javascript">
             jQuery(window).load(function () {
-                $('#intro').parallax("50%", 0.1);
                 $('#popoverMail').popover();
                 $('#popoverFacebook').popover();
                 $('#popoverMobile').popover();
@@ -71,9 +70,9 @@
             <div id="top-nav" class="th-top-nav">
                 <p class="color-white" style="font-weight: lighter;">ทะเบียนพานิชย์ 1369900182435</p>
                 <p class="text-right" style="margin-top: -20px;">
-                    <a id="popoverMail" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน support@thaihubhosting.com" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านอีเมล์" data-trigger="hover"><i class="fa fa-envelope"></i> Support |</a>
-                    <a id="popoverFacebook" class="hidden-xs" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่าน Facebookpage ThaiHubHosting" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านเพจ" data-trigger="hover"> <i class="fa fa-facebook"></i> ThaiHubHosting |</a>
-                    <a id="popoverMobile" href="#" data-content="ติดต่อกับผู้ให้บริการ ผ่านเบอร์ <?= lang('phone_number1') ?>" rel="popover" data-placement="bottom" data-original-title="ติดต่อผ่านสายตรง" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i> <?= lang('phone_number1') ?></a>
+                    <a id="popoverMail" href="#" data-content="<?= lang('popover_email_content') ?>" rel="popover" data-placement="bottom" data-original-title="<?= lang('popover_email_title') ?>" data-trigger="hover"><i class="fa fa-envelope"></i> Support |</a>
+                    <a id="popoverFacebook" class="hidden-xs" href="#" data-content="<?= lang('popover_facebook_content') ?>" rel="popover" data-placement="bottom" data-original-title="<?= lang('popover_facebook_title') ?>" data-trigger="hover"> <i class="fa fa-facebook"></i> ThaiHubHosting |</a>
+                    <a id="popoverMobile" href="#" data-content="<?= lang('popover_phone_content') . ' ' . lang('phone_number1') ?>" rel="popover" data-placement="bottom" data-original-title="<?= lang('popover_phone_title') ?>" data-trigger="hover"><i class="fa fa fa-mobile-phone"></i> <?= lang('phone_number1') ?></a>
                 </p>
             </div>
             <div class="container-fluid">           
@@ -88,43 +87,23 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li
-                        <?php
-                        if ($this->router->class == 'home') {
-                            echo 'class="active"';
-                        }
-                        ?>><?php echo anchor('home', '<i class="fa fa-home"></i> ' . lang('menu_home')); ?></li>
-                        <li
-                        <?php
-                        if ($this->router->class == 'hosting') {
-                            echo 'class="active"';
-                        }
-                        ?>><?php echo anchor('hosting', '<i class="fa fa-tags"></i> ' . lang('menu_hosting')); ?></li>
-                        <li><a href="http://localhost/ThaiHubHosting/hosting"><i class="fa fa-globe"></i> โดเมนเนม</a></li>
-                        <li
-                        <?php
-                        if ($this->router->class == 'features') {
-                            echo 'class="active"';
-                        }
-                        ?>><?php echo anchor('features', '<i class="fa fa-briefcase"></i> ' . lang('menu_features')); ?></li>
-                        <li
-                        <?php
-                        if ($this->router->class == 'contact') {
-                            echo 'class="active"';
-                        }
-                        ?>><?php echo anchor('contact', '<i class="fa fa-comments"></i> ' . lang('menu_contact')); ?></li>
+                        <li <?= ($this->router->class == 'home') ? 'class="active"' : '' ?>><?= anchor('home', '<i class="fa fa-home"></i> ' . lang('menu_home')); ?></li>
+                        <li <?= ($this->router->class == 'hosting') ? 'class="active"' : '' ?>><?= anchor('hosting', '<i class="fa fa-tags"></i> ' . lang('menu_hosting')); ?></li>
+                        <li <?= ($this->router->class == 'domain') ? 'class="active"' : '' ?>><?= anchor('domain', '<i class="fa fa-globe"></i> ' . lang('menu_domain')); ?></li>
+                        <li <?= ($this->router->class == 'portfolio') ? 'class="active"' : '' ?>><?= anchor('portfolio', '<i class="fa fa-briefcase"></i> ' . lang('menu_portfolio')); ?></li>
+                        <li <?= ($this->router->class == 'contact') ? 'class="active"' : '' ?>><?= anchor('contact', '<i class="fa fa-comments"></i> ' . lang('menu_contact')); ?></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> Support <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> <?= lang('menu_support') ?> <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#"><i class="fa fa-money"></i> แจ้งการชำระค่าบริการ</a></li>
-                                <li><a href="#"><i class="fa fa-truck"></i> แจ้งปัญหาการบริการ</a></li>
+                                <li><a href="https://www.thaihubhosting.com/customer/submitticket.php?step=2&deptid=1"><i class="fa fa-money"></i> <?= lang('menu_support_payment') ?></a></li>
+                                <li><a href="https://www.thaihubhosting.com/customer/submitticket.php?step=2&deptid=3"><i class="fa fa-truck"></i> <?= lang('menu_support_service') ?></a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="#"><i class="fa fa-suitcase"></i> สอบถามข้อมูลเพิ่มเติ่ม</a></li>
+                                <li><a href="https://www.thaihubhosting.com/customer/submitticket.php?step=2&deptid=2"><i class="fa fa-suitcase"></i> <?= lang('menu_support_sales') ?></a></li>
                             </ul>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><?php echo anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ' . lang('menu_customer')) ?></li>
+                        <li><?= anchor('https://www.thaihubhosting.com/customer', '<i class="fa fa-users"></i> ' . lang('menu_customer')) ?></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 <?php

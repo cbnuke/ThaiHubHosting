@@ -1,6 +1,7 @@
-<ul class="nav pull-right scroll-top hidden" id="scroll-top">
+<ul class="nav pull-right scroll-top hidden" id="scroll-top" style="z-index: 10;">
     <li><a href="#" id="top"><i class="fa fa-arrow-circle-up fa-3x"></i></a></li>
 </ul>
+</div>
 <footer class="th-footer hidden-print hidden-xs">
     <div class="container-fluid">
         <div class="row">
@@ -23,14 +24,6 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <h4 style="margin-top: 0px;">Features</h4>
-                <ul>
-                    <li><?= anchor('features#bestnetwork', lang('bestnetwork')) ?></li>
-                    <li><?= anchor('features#bestserver', lang('bestserver')) ?></li>
-                    <li><?= anchor('features#besttools', lang('besttools')) ?></li>
-                </ul>
-            </div>
-            <div class="col-md-3">
                 <h4 style="margin-top: 0px;">Support</h4>
                 <ul>
                     <li><?= anchor('terms', 'ข้อตกลงและเงื่อนไขการใช้บริการ') ?></li>
@@ -43,17 +36,33 @@
                     </ul>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <div class="fb-like-box" 
+                     data-href="https://www.facebook.com/thaihubhosting" 
+                     data-hide-cover="false"
+                     data-show-facepile="true"
+                     data-show-posts="false">
+                </div>
+            </div>
         </div>
     </div>
 </footer>
-<div class="th-footer-bottom">COPYRIGHT &copy; 2014 ThaiHubHosting.com เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย | Quality web hosting for Thailand</div>
-</div>
+<div class="th-footer-bottom">COPYRIGHT &copy; 2015 ThaiHubHosting.com เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย | Quality web hosting for Thailand</div>
 <script>
-    jQuery(document).ready(function($) {
-        $('#top').click(function() {
+    jQuery(document).ready(function ($) {
+        $('#top').click(function () {
             $("html, body").animate({scrollTop: 0}, 500);
         });
     });
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>

@@ -34,10 +34,15 @@
                                                         show: "rotateInUpLeft",
                                                         delayShow: "delay2s"
                                                     },
-                                            "#thh":
+                                            "#slide1_logo":
                                                     {
-                                                        show: "lightSpeedIn",
-                                                        delayShow: "delay2s"
+                                                        show: "bounceInDown",
+                                                        delayShow: "delay1s"
+                                                    },
+                                            "#slide1_social":
+                                                    {
+                                                        show: "fadeIn",
+                                                        delayShow: "delay1-5s"
                                                     }
                                         },
                                 1: //Slide No2
@@ -104,55 +109,83 @@
                                                         show: "rotateIn",
                                                         delayShow: "delay3-5s"
                                                     },
+                                            "#txt_welcome":
+                                                    {
+                                                        show: "rotateIn",
+                                                        delayShow: "delay3-5s"
+                                                    }
+                                        },
+                                3: //Slide No4
+                                        {
+                                            "#entry3":
+                                                    {
+                                                        show: "fadeInUp",
+                                                        delayShow: "delay1-2"
+                                                    },
+                                            "#entry4":
+                                                    {
+                                                        show: "fadeInDown",
+                                                        delayShow: "delay2-4s"
+                                                    }
                                         }
                             }
                 });
     });
 </script>
-<div class="row">
-    <ul class="anim-slider">
+<div class="container-fluid" style="margin-bottom: 10px;">
+    <div class="row">
+        <ul class="anim-slider">
 
-        <!-- Slide No1 -->
-        <li class="anim-slide">
-            <h1 id="looks">LOOKS</h1>
-            <h1 id="amazing">PRETTY AMAZING</h1>
-            <h1 id="place">PLACE</h1>
-            <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive','id'=>'thh')) ?>
-        </li>
+            <!-- Slide No1 -->
+            <li class="anim-slide">
+                <?= img('thaihubhosting.png?v=' . $version, array('id' => 'slide1_logo')) ?>
+                <?= img('slide/social.png?v=' . $version, array('id' => 'slide1_social')) ?>
+                <h1 id="looks">ผู้ให้บริการเว็บโฮสติ้งคุณภาพสูง</h1>
+                <h1 id="amazing">สำหรับคนไทย</h1>
+                <h1 id="place">พร้อมให้บริการทุกท่าน</h1>
+            </li>
 
 
-        <!-- Slide No2 -->
-        <li class="anim-slide">
-            <div id="img1"></div>
-            <div id="img2"></div>
-            <div id="img3"></div>
-        </li>
+            <!-- Slide No2 -->
+            <li class="anim-slide">
+                <div id="img1"></div>
+                <div id="img2"></div>
+                <div id="img3"></div>
+            </li>
 
-        <!-- Slide No3 -->
-        <li class="anim-slide">
-            <h1 id="T">T</h1>
-            <h1 id="r">r</h1>
-            <h1 id="y">y</h1>
-            <h1 id="i">i</h1>
-            <h1 id="t">t</h1>
-            <h1 id="mark">!</h1>
-        </li>
+            <!-- Slide No3 -->
+            <li class="anim-slide">
+                <h1 id="T">T</h1>
+                <h1 id="r">r</h1>
+                <h1 id="y">y</h1>
+                <h1 id="i">i</h1>
+                <h1 id="t">t</h1>
+                <h1 id="mark">!</h1>
+                <h1 id="txt_welcome"><span class="color-black">ยินดีต้อนรับสู่ Thai</span><span class="color-sky">Hub</span><span class="color-orange">Hosting</span></h1>
+            </li>
 
-        <!-- Arrows -->
-        <nav class="anim-arrows">
-            <span class="anim-arrows-prev">
-                <i class="fa fa-angle-left fa-3x"></i>
-            </span>
-            <span class="anim-arrows-next">
-                <i class="fa fa-angle-right fa-3x"></i>
-            </span>
-        </nav>
-        <!-- Dynamically created dots -->
+            <!-- Slide No4 -->
+            <li class="anim-slide">
+                <?= img('slide/rev-entry-3.png', array('id' => 'entry3')) ?>
+                <?= img('slide/rev-entry-4.png', array('id' => 'entry4')) ?>
+            </li>
 
-    </ul>
+            <!-- Arrows -->
+            <nav class="anim-arrows">
+                <span class="anim-arrows-prev">
+                    <i class="fa fa-angle-left fa-3x"></i>
+                </span>
+                <span class="anim-arrows-next">
+                    <i class="fa fa-angle-right fa-3x"></i>
+                </span>
+            </nav>
+            <!-- Dynamically created dots -->
+
+        </ul>
+    </div>
 </div>
-<div id="myCarousel" class="carousel slide animated bounceInDown">
-    <!-- Indicators -->
+<!--<div id="myCarousel" class="carousel slide animated bounceInDown">
+     Indicators 
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -160,20 +193,20 @@
     </ol>
     <div class="carousel-inner">
         <div class="item active">
-            <?= img('slide/slide0.jpg?v=' . $version) ?>
+<?= img('slide/slide0.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
+<?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
                     <h1><span class="color-black">ยินดีต้อนรับสู่ Thai</span><span class="color-sky">Hub</span><span class="color-orange">Hosting</span></h1>
                     <p class="lead ui green label" style="font-size:20px;">ผู้ใช้บริการเว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย <span class="hidden-xs">พร้อมที่จะให้บริการ กับทุกองค์กร ทุกราชรัฐ หรือทุกท่าน</span></p>
                 </div>
             </div>
         </div>
         <div class="item">
-            <?= img('slide/slide1.jpg?v=' . $version) ?>
+<?= img('slide/slide1.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
+<?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
                     <h1>แพ็คเก็จที่จัดสรรตามขนาดขององค์หรือธุรกิจ</h1>
                     <p class="lead">เพื่อให้ง่ายต่อการเลือกใช้บริการของลูกค้า และตอบสนองต่อความต้องการอย่างถูกต้อง</p>
                     <p>
@@ -183,14 +216,14 @@
             </div>
         </div>
         <div class="item">
-            <?= img('idc/idc005_XL.jpg?v=' . $version) ?>
+<?= img('idc/idc005_XL.jpg?v=' . $version) ?>
             <div class="container">
                 <div class="carousel-caption">
-                    <?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
+<?= img('thaihubhosting.png?v=' . $version, array('class' => 'img-responsive')) ?>
                     <h1>ให้บริการด้วยเครือข่ายที่ดีที่สุดในประเทศไทย</h1>
                     <p class="lead">ไทยฮับโฮสติ้ง ได้คัดเลือกเครื่อข่ายที่ดีที่สุดสำหรับให้บริการแก่ลูกค้าของเรา</p>
                     <p>
-                        <?= anchor('features', 'ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?>
+<?= anchor('features', 'ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?>
                     </p>
                 </div>
             </div>
@@ -201,7 +234,7 @@
         class="right carousel-control" href="#myCarousel" data-slide="next"><span
             class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
-<!-- /.carousel -->
+ /.carousel -->
 
 <div class="container marketing">
     <div class="row featurette">
@@ -214,7 +247,7 @@
         </div>
         <div class="col-md-4 animated bounceInRight">
             <div class="ui green segment">
-                <div class="ui ribbon green label"><h3 style="margin-top: 4px;margin-bottom: 0px;">การรับรองความน่าเชื่อถือ</h3></div>
+                <div class="ui ribbon green label"><h3 style="margin:0px;">การรับรองความน่าเชื่อถือ</h3></div>
                 <p>ไทยฮับโฮสติ้งได้จดทะเบียนพาณิชย์อิเล็กทรอนิกส์และเสียภาษีถูกต้องตามกฏหมาย</p>
                 <div class="ui teal label">
                     <i class="mail icon"></i> เลขทะเบียนพานิชย์ <span style="font-weight: lighter;">1369900182435</span>
@@ -274,7 +307,7 @@
         <div class="col-md-3">
             <div class="panel panel-success">
                 <div class="panel-heading">
-                    <div class="ui teal ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_value') ?></div>
+                    <div class="ui teal ribbon label"><?= lang('label_value') ?></div>
                     <h3 class="text-center">Mini Plan</h3>
                 </div>
                 <div class="panel-body text-center">
@@ -304,7 +337,7 @@
         <div class="col-md-3">
             <div class="panel panel-warning">
                 <div class="panel-heading">
-                    <div class="ui orange ribbon label" style="position: absolute;margin-left: 26px;"><?= lang('label_best') ?></div>
+                    <div class="ui orange ribbon label"><?= lang('label_best') ?></div>
                     <h3 class="text-center">Small Plan</h3>
                 </div>
                 <div class="panel-body text-center">
@@ -334,7 +367,7 @@
         <div class="col-md-3">
             <div class="panel panel-danger">
                 <div class="panel-heading">
-                    <div class="ui red ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_balance') ?></div>
+                    <div class="ui red ribbon label"><?= lang('label_balance') ?></div>
                     <h3 class="text-center">Medium Plan</h3>
                 </div>
                 <div class="panel-body text-center">
@@ -364,7 +397,7 @@
         <div class="col-md-3">
             <div class="panel panel-info">
                 <div class="panel-heading">
-                    <div class="ui blue ribbon label" style="position: absolute;margin-left: 32px;"><?= lang('label_enterprise') ?></div>
+                    <div class="ui blue ribbon label"><?= lang('label_enterprise') ?></div>
                     <h3 class="text-center">Large Plan</h3>
                 </div>
                 <div class="panel-body text-center">
@@ -424,25 +457,7 @@
             </p>
         </div>
         <div class="row col-md-4">
-            <div class="fb-like-box" 
-                 data-href="https://www.facebook.com/thaihubhosting" 
-                 data-colorscheme="light" 
-                 data-show-faces="true" 
-                 data-header="false" 
-                 data-stream="true" 
-                 data-show-border="true"
-                 data-width="350px"
-                 >
-            </div>
-            <script>(function (d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (d.getElementById(id))
-                        return;
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }(document, 'script', 'facebook-jssdk'));</script>
+
         </div>
     </div>
 </div>
