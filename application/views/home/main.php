@@ -240,7 +240,7 @@
     <div class="row featurette">
         <div class="col-md-8 animated bounceInLeft">
             <div class="ui piled segment">
-                <h2 class="featurette-heading">ยินดีต้อนรับสู่ ไทยฮับโฮสติ้ง</h2>
+                <span class="ui right pointing basic blue ribbon label"><h2 style="margin: 0px;">ยินดีต้อนรับสู่ ไทยฮับโฮสติ้ง</h2></span>
                 <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราคือผู้ให้บริการโฮสติ้งคุณภาพดีได้มาตราฐาน ด้วยทีมงานที่มีประสิทธิภาพ หมดปัญหาเรื่องค่าใช้จ่ายสำหรับผู้ไม่มีเซิร์ฟเวอร์ นอกจากนี้เรายังมีแพ็คเกจที่หลากหลาย เพื่อตอบสนองความต้องการของลูกค้าได้อย่างลงตัว เพื่อการใช้งานได้อย่างเต็มประสิทธิภาพ</p>
                 <p><?= anchor('features', '<i class="fa fa-heart"></i> ความใส่ใจในรายละเอียดของเรา', array('class' => 'btn btn-lg btn-primary')) ?></p>
             </div>     

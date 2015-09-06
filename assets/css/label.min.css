@@ -318,7 +318,7 @@ a.ui.label {
 
 /* Positioning */
 .ui.ribbon.label {
-    left: calc( -1rem  -  1.2em );
+    left: calc( -1rem  -  1.7em );
     margin-right: -1.2em;
     padding-left: calc( 1rem  +  1.2em );
     padding-right: 1.2em;
