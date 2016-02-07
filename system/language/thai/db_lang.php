@@ -1,29 +1,35 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['db_invalid_connection_str'] = 'ไม่สามารถกำหนดค่าฐานข้อมูลจากสตริงการเชื่อมต่อที่คุณส่ง';
-$lang['db_unable_to_connect'] = 'ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ฐานข้อมูลของคุณตามค่าที่ตั้งไว้.';
-$lang['db_unable_to_select'] = 'ไม่สามารถเลือกฐานข้อมูลที่ระบุ: %s';
-$lang['db_unable_to_create'] = 'ไม่สามารถสร้างฐานข้อมูลที่ระบุ: %s';
-$lang['db_invalid_query'] = 'Query ที่คุณส่งไม่ถูกต้อง.';
-$lang['db_must_set_table'] = 'คุณต้องตั้งค่าตารางฐานข้อมูลที่จะใช้กับคำค้นหาของคุณ.';
-$lang['db_must_use_set'] = 'คุณต้องใช้เมธอด "set" เพื่อปรับปรุงรายการ.';
-$lang['db_must_use_index'] = 'คุณต้องกำหนด index เพื่อเข้าคู่กันสำหรับการอัปเดทแบบรวม.';
-$lang['db_batch_missing_index'] = 'จำนวนแถว 1 หรือมากกว่านั้นสำหรับการอัปเดทแบบรวมได้ขาดหาย index ที่กำหนดไว้.';
-$lang['db_must_use_where'] = 'การปรับปรุงจะไม่อนุญาตจนกว่าจะมีการใช้เงื่อนไข "where".';
-$lang['db_del_must_use_where'] = 'การลบจะไม่อนุญาตจนกว่าจะมีการใช้เงื่อนไข "where" หรือ "like".';
-$lang['db_field_param_missing'] = 'การเรียกฟิลด์ต้องมีชื่อตารางเป็นพารามิเตอร์.';
-$lang['db_unsupported_function'] = 'ลูกเล่นนี้ไม่อนุญาตสำหรับฐานข้อมูลที่คุณใช้.';
-$lang['db_transaction_failure'] = 'ความล้มเหลวของรายการ: Rollback performed.';
-$lang['db_unable_to_drop'] = 'ไม่สามารถทิ้งฐานข้อมูลที่ระบุ.';
-$lang['db_unsuported_feature'] = 'ไม่สนับสนุนลูกเล่นของฐานข้อมูลที่คุณกำลังใช้อยู่.';
-$lang['db_unsuported_compression'] = 'รูปแบบการบีบอีดไฟล์ที่คุณเลือกไม่รองรับโดยเซิร์ฟเวอร์.';
-$lang['db_filepath_error'] = 'ไม่สามารถเขียนข้อมูลลงตำแหน่งไฟล์ที่คุณส่งมา.';
-$lang['db_invalid_cache_path'] = 'ตำแหน่ง cache ที่คุณส่งไม่มีหรือไม่สามารถเขียนได้.';
-$lang['db_table_name_required'] = 'ต้องการชื่อตารางสำหรับปฏิบัติการนั้น.';
-$lang['db_column_name_required'] = 'ต้องการชื่อคมลัมน์สำหรับปฏิบัติการนั้น.';
-$lang['db_column_definition_required'] = 'นิยามคอลัมน์จำเป็นสำหรับการดำเนินการ.';
-$lang['db_unable_to_set_charset'] = 'ไม่สามารถกำหนด client connection character: %s';
-$lang['db_error_heading'] = 'ข้อผิดพลาดที่ฐานข้อมูลเกิดขึ้น';
-
-/* End of file db_lang.php */
-/* Location: ./system/language/english/db_lang.php */
+$lang['db_invalid_connection_str'] = 'ไม่สามารถกำหนดการตั้งค่าฐานข้อมูลโดยใช้ค่าการเชื่อต่อที่กำหนด';
+$lang['db_unable_to_connect'] = 'ไม่สามารถเชื่อต่อเซอร์เวอร์ของฐานข้อมูลโดยใช้ค่าที่กำหนด';
+$lang['db_unable_to_select'] = 'ไม่สามารถทำการเลือกฐานข้อมูลที่กำหนด: %s';
+$lang['db_unable_to_create'] = 'ไม่สมารถสร้างฐานข้อมูลที่กำหนด: %s';
+$lang['db_invalid_query'] = 'คำสั่งคิวรี่ที่คุณใช้ไม่ถูกต้อง';
+$lang['db_must_set_table'] = 'คุณต้องเลือกตารางฐานข้อมูลที่จะใช้กับคำสั่งคิวรี่ของคุณ';
+$lang['db_must_use_set'] = 'คุณต้องใช้คำสั่ง "set" ในการอัพเดทข้อมูล';
+$lang['db_must_use_index'] = 'คุณต้องระบุค่าดัชนีเพื่อค้นหาในการอัพเดทแบบหลายรายการ';
+$lang['db_batch_missing_index'] = 'ข้อมูลอย่างน้อยหนึ่งรายการไม่มีการระบุดัชนีสำหรับการอัพเดทแบบหลายรายการ';
+$lang['db_must_use_where'] = 'ไม่อนุญาตให้อัพเพทข้อมูลหากไม่มีการใช้คำสั่ง where';
+$lang['db_del_must_use_where'] = 'ไม่อนุญาตการให้ทำการลบข้อมูลหากไม่มีการใช้คำสั่ง where หรือ like';
+$lang['db_field_param_missing'] = 'โปรดระบุชื่อฟิลด์ของตารางในรูปของพารามิเตอร์เพื่ดึงข้อมูล';
+$lang['db_unsupported_function'] = 'ฟีเจอร์นี้ไม่สามารถใช้งานได้กับฐานข้อมูลที่คุณกำลังใช้อยู่';
+$lang['db_transaction_failure'] = 'Transaction ล้มเหลว: ทำการย้อนกลับแล้ว';
+$lang['db_unable_to_drop'] = 'ไม่สมารถลบฐานข้อมูลที่ระบุ';
+$lang['db_unsupported_feature'] = 'รูปแบบฐานข้อมูลที่คุณใช้ไม่สนับสนุนการทำงานนี้';
+$lang['db_unsupported_compression'] = 'เซอร์เวอร์ของคุณไม่สนับสนุนการบีบอัดไฟล์ตามรูปแบบที่คุณเลือก';
+$lang['db_filepath_error'] = 'ไม่สามารถเขียนข้อมูลไปยังไฟล์ตามตำแหน่งที่กำหนด';
+$lang['db_invalid_cache_path'] = 'ตำแหน่งของ cache ที่กำหนดไม่ถูกต้องหรือไม่สามารถเขียนได้';
+$lang['db_table_name_required'] = 'โปรดระบุชื่อตารางสำหรับการทำงานนั้น';
+$lang['db_column_name_required'] = 'โปรดระบุชื่อคอลัมน์สำหรับการทำงานนั้น';
+$lang['db_column_definition_required'] = 'โปรดนิยามคอลัมน์สำหรับการทำงานนั้น';
+$lang['db_unable_to_set_charset'] = 'ไม่สามารถกำหนดชุดอักขระของการเชื่อต่อลูกข่าย: %s';
+$lang['db_error_heading'] = 'เกิดข้อผิดพลาดของฐานข้อมูล';

@@ -1,24 +1,28 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['imglib_source_image_required'] = "คุณต้องกำหนดไฟล์ต้นฉบับในการตั้งค่า.";
-$lang['imglib_gd_required'] = "The GD image library is required for this feature.";
-$lang['imglib_gd_required_for_props'] = "เซิร์ฟเวอร์ของคุณต้องรองรับ GD image library เพื่อตัดสินใจคุณสมบัติของภาพ.";
-$lang['imglib_unsupported_imagecreate'] = "เซิร์ฟเวอร์ของคุณไม่รองรับฟังก์ชั่น GD ซึ่งต้องการในการจัดการภาพ.";
-$lang['imglib_gif_not_supported'] = "ภาพ GIF บ่อยครั้งที่ไม่รองรับเนื่องจากข้อติดขัดทางใบอนุญาต.  คุณอาจเลือกใช้รูป JPG หรือ PNG แทน.";
-$lang['imglib_jpg_not_supported'] = "ภาพ JPG ไม่รองรับ.";
-$lang['imglib_png_not_supported'] = "ภาพ PNG ไม่รองรับ.";
-$lang['imglib_jpg_or_png_required'] = "โปรโตคอลปรับขนาดภาพที่ระบุในการตั้งค่าของคุณจะทำงานเฉพาะกับประเภทภาพ JPEG หรือ PNG .";
-$lang['imglib_copy_error'] = "ข้อผิดพลาดที่พบในขณะที่พยายามจะแทนที่แฟ้ม โปรดตรวจสอบไดเร็คทอรี่ว่าอนุญาต.";
-$lang['imglib_rotate_unsupported'] = "การหมุนภาพดูเหมือนจะไม่รองรับโดยเซิร์ฟเวอร์ของคุณ.";
-$lang['imglib_libpath_invalid'] = "พาธไปยัง library ภาพ ไม่ถูกต้อง.  โปรดตรวจสอบพาธในการตั้งค่าของคุณ.";
-$lang['imglib_image_process_failed'] = "การประมวลผลภาพล้มเหลว โปรดตรวจสอบว่าเซิร์ฟเวอร์ของคุณสนับสนุนโปรโตคอลเลือกและเส้นทางไปยัง library ภาพนั้นถูกต้อง.";
-$lang['imglib_rotation_angle_required'] = "ต้องการองศาในการหมุนภาพ.";
-$lang['imglib_writing_failed_gif'] = "ภาพ GIF.";
-$lang['imglib_invalid_path'] = "ตำแหน่งไปยังรูปภาพไม่ถูกต้อง.";
-$lang['imglib_copy_failed'] = "การสำเนาภาพล้มเหลว.";
-$lang['imglib_missing_font'] = "ไม่สามารถพบฟอนต์ที่จะใช้.";
-$lang['imglib_save_failed'] = "ไม่สามารถบันทึกภาพ.  โปรดตรวจว่าไฟล์ภาพและไดเร็คทอรี่นั้นเขียนได้.";
-
-
-/* End of file imglib_lang.php */
-/* Location: ./system/language/english/imglib_lang.php */
+$lang['imglib_source_image_required'] = 'คุณต้องระบุแหล่งที่มาของภาพในการตั้งค่าของคุณ';
+$lang['imglib_gd_required'] = 'จำเป็นต้องใช้ GD image สำหรับการทำงานนี้';
+$lang['imglib_gd_required_for_props'] = 'เซิร์ฟเวอร์ของคุณต้องสนับสนุน GD image library เพื่อตรวจสอบคุณสมบัติของภาพ';
+$lang['imglib_unsupported_imagecreate'] = 'เซิร์ฟเวอร์ของคุณไม่สนับสนุน GD function ซึ่งจำเป็นในการประมวลผลสำหรับภาพนชนิดนี้';
+$lang['imglib_gif_not_supported'] = 'ภาพ GIF มักจะไม่ได้รับการสนับสนุนเนื่องจากข้อจำกัดของใบอนุญาต (license) คุณอาจจะต้องใช้ภาพ JPG หรือ PNG แทน';
+$lang['imglib_jpg_not_supported'] = 'ไม่สนับสนุนภาพชนิด JPG';
+$lang['imglib_png_not_supported'] = 'ไม่สนับสนุนภาพชนิด PNG';
+$lang['imglib_jpg_or_png_required'] = 'วิธีการปรับขนาดภาพที่ระบุไว้ในการตัังค่าของสามารทำงานได้กับภาพประเภท JPEG หรือ PNG เท่านั้น';
+$lang['imglib_copy_error'] = 'พบข้อผิดพลาดในขณะที่พยายามที่จะแทนที่แฟ้ม กรุณาตรวจสอบให้แน่ใจไดเรกทอรีไฟล์ของคุณสามารถเขียนได้';
+$lang['imglib_rotate_unsupported'] = 'เซิร์ฟเวอร์ของคุณไม่สนับสนุนการหมุนภาพ';
+$lang['imglib_libpath_invalid'] = 'Path ไปยัง image libraryของคุณไม่ถูกต้อง กรุณาตั้งค่าเส้นทางที่ถูกต้องในการตั้งค่าภาพของคุณ';
+$lang['imglib_image_process_failed'] = 'ล้มเหลวในการประมวลผลภาพ กรุณาตรวจสอบว่าเซิร์ฟเวอร์ของคุณรองรับโปรโตคอลที่ใช้และเส้นทางไปยัง image library ของคุณถูกต้อง';
+$lang['imglib_rotation_angle_required'] = 'โปรดระบุมุุมสำหรับการหมุนภาพ';
+$lang['imglib_invalid_path'] = 'ตำแหน่งของภาพไม่ถูกต้อง';
+$lang['imglib_copy_failed'] = 'การคัดลอกภาพล้มเหลว';
+$lang['imglib_missing_font'] = 'ไม่พบแบบอัษร]ต้องการ';
+$lang['imglib_save_failed'] = 'ไม่สามารถบันทึกภาพได้กรุณาตรวจสอบภาพและไดเรกทอรี่ว่าสามารถเขียนได้หรือไม่';

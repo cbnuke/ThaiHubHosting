@@ -1,29 +1,40 @@
 <?php
+/**
+ * System messages translation for CodeIgniter(tm)
+ *
+ * @author	CodeIgniter community
+ * @copyright	Copyright (c) 2014 - 2016, British Columbia Institute of Technology (http://bcit.ca/)
+ * @license	http://opensource.org/licenses/MIT	MIT License
+ * @link	http://codeigniter.com
+ */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['required'] 			= "ต้องกรอกช่อง %s .";
-$lang['isset']				= "ช่อง %s ต้องมีค่า.";
-$lang['valid_email']		= "ต้องมีอีเมลที่ถูกต้องในช่อง %s .";
-$lang['valid_emails'] 		= "ต้องมีอีเมลที่ถูกต้องทั้งหมดในช่อง %s .";
-$lang['valid_url'] 			= "ช่อง %s ต้องมีค่า URL ที่ถูกต้อง.";
-$lang['valid_ip'] 			= "ช่อง %s ต้องมีค่า IP ที่ถูกต้อง.";
-$lang['min_length']			= "ช่อง %s ต้องมีจำนวนตัวอักษรอย่างน้อย %s ตัว.";
-$lang['max_length']			= "ช่อง %s ไม่สามารถมีจำนวนตัวอักษรเกิน %s ตัว.";
-$lang['exact_length']		= "ช่อง %s ต้องมีตัวอักษรทั้งหมด %s ตัว.";
-$lang['alpha']				= "ช่อง %s จะมีอักขระตัวอักษรอย่างเดียวเท่านั้น.";
-$lang['alpha_numeric']		= "ช่อง %s จะมีตัวอักษร-ตัวเลขอย่างเดียวเท่านั้น.";
-$lang['alpha_dash']			= "ช่อง %s มีได้แค่ตัวอักษร-ตัวเลข, ขีดล่าง, ขีดกลาง.";
-$lang['numeric']			= "ช่อง %s ต้องมีแต่ตัวเลข.";
-$lang['is_numeric']			= "ช่อง %s จะต้องมีได้แค่ตัวเลข.";
-$lang['integer']			= "ช่อง %s ต้องมีเลขจำนวนเต็ม.";
-$lang['regex_match']		= "ช่อง %s ไม่ใช่รูปแบบที่ถูกต้อง.";
-$lang['matches']			= "ช่อง %s ไม่ตรงกับช่อง %s .";
-$lang['is_unique'] 			= "ช่อง %s ต้องมีค่าเฉพาะ";
-$lang['is_natural']			= "ช่อง %s ต้องมีแต่เลขจำนวนเต็มบวก.";
-$lang['is_natural_no_zero']	= "ช่อง %s ต้องมีตัวเลขมากกว่าศูนย์.";
-$lang['decimal']			= "ช่อง %s ต้องมีตัวเลขที่เป็นทศนิยม.";
-$lang['less_than']			= "ช่อง %s ต้องมีตัวเลขน้อยกว่า %s.";
-$lang['greater_than']		= "ช่อง %s ต้องมีตัวเลขมากกว่า %s.";
-
-
-/* End of file form_validation_lang.php */
-/* Location: ./system/language/english/form_validation_lang.php */
+$lang['form_validation_required']		= 'โปรดระบุ {field} ';
+$lang['form_validation_isset']			= 'จำเป็นต้องระบุข้อมูล {field} ';
+$lang['form_validation_valid_email']		= 'กรุณากรอก {field} ให้ถูกต้องตามรูปแบบ Email';
+$lang['form_validation_valid_emails']		= 'กรุณากรอก {field} ให้ถูกต้องตามรูปแบบ Email ทั้งหมด';
+$lang['form_validation_valid_url']		= 'กรุณากรอก {field} ให้ถูกต้องตามรูปแบบ URL';
+$lang['form_validation_valid_ip']		= 'กรุณากรอก {field} ให้ถูกต้องตามรูปแบบ IP Address';
+$lang['form_validation_min_length']		= 'ข้อมูล {field} ต้องมีความยาวอย่างน้อย  {param}  ตัวอักษร';
+$lang['form_validation_max_length']		= 'ข้อมูล {field} ต้องมีความยาวไม่เกิน  {param}  ตัวอักษร';
+$lang['form_validation_exact_length']		= 'ข้อมูล {field} ต้องมีความยาว  {param}  ตัวอักษรเท่านั้น';
+$lang['form_validation_alpha']			= 'ข้อมูล {field} จะต้องประกอบด้วยตัวอักษรเท่านั้น';
+$lang['form_validation_alpha_numeric']		= 'ข้อมูล {field} จะต้องประกอบด้วยตัวอักษรหรือตัวเลขเท่านั้น';
+$lang['form_validation_alpha_numeric_spaces']	= 'ข้อมูล {field} จะต้องประกอบด้วยตัวอักษรตัวเลขและช่องว่างเท่านั้น';
+$lang['form_validation_alpha_dash']		= 'ข้อมูล {field} จะประกอบด้วยตัวอักษรตัวเลขใต้และขีดกลางเท่านั้น';
+$lang['form_validation_numeric']		= 'ข้อมูล {field} จะตัวประกอบด้วยตัวอักษรตัวเลขใต้และขีดกลางเท่านั้น';
+$lang['form_validation_is_numeric']		= 'ข้อมูล {field} จะต้องประกอบด้วยตัวเลขเท่านั้น';
+$lang['form_validation_integer']		= 'ข้อมูล {field} จะต้องประกอบด้วยตัวเลขจำนวนเต็มเท่านั้น';
+$lang['form_validation_regex_match']		= 'รูปแบบของข้อมูล {field} ไม่ถูกต้อง';
+$lang['form_validation_matches']		= 'ข้อมูล {field} ไม่ตรงกับข้อมูล {param} .';
+$lang['form_validation_differs']		= 'ข้อมูล {field} จะต้องแตกต่างจากข้อมูล {param} ';
+$lang['form_validation_is_unique'] 		= 'ข้อมูล {field} จะต้องเป็นค่าที่ซ้ำกับข้อมูลที่มีอยู่ในระบบ';
+$lang['form_validation_is_natural']		= 'ข้อมูล {field} จะต้องเป็นตัวเลขเท่านั้น';
+$lang['form_validation_is_natural_no_zero']	= 'ข้อมูล {field} จะต้องเป้นตัวเลขที่มากกว่า 0 ';
+$lang['form_validation_decimal']		= 'ข้อมูล {field} จะต้องเป็นจำนวนทศนิยมเท่านั้น';
+$lang['form_validation_less_than']		= 'ข้อมูล {field} จะต้องเป็นตัวเลขที่มีค่าน้อยกว่า {param} ';
+$lang['form_validation_less_than_equal_to']	= 'ข้อมูล {field} จะต้องเป็นตัวเลขที่มีค่าไม่เกิน {param} ';
+$lang['form_validation_greater_than']		= 'ข้อมูล {field} จะต้องเป็นตัวเลขที่มีค่ามากกว่า {param} ';
+$lang['form_validation_greater_than_equal_to']	= 'ข้อมูล {field} จะต้องเป็นตัวเลขที่มีค่าตั้งแต่ {param} ขึ้นไป.';
+$lang['form_validation_error_message_not_set']	= 'ไม่สามารถเข้าถึงข้อผิดพลาด ที่สอดคล้องกับ ชื่อเขตข้อมูล ของคุณ {field} .';
+$lang['form_validation_in_list']		= 'ข้อมูล  {field}  จะต้องเป็นหนึ่งในรายการต่อไปนี้เท่านั้น:  {param} .';

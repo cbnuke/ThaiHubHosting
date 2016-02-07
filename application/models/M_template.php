@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-Class m_template extends CI_Model {
+Class M_template extends CI_Model {
 
     private $title = 'ThaiHubHosting เว็บโฮสติ้งคุณภาพสูง สำหรับคนไทย | Quality web hosting for Thailand';
     private $view_name = NULL;
@@ -54,13 +54,13 @@ Class m_template extends CI_Model {
     function showTemplate() {
         //--- Load language --//
         $site_lang = $this->session->userdata('site_lang');
-        if (!$site_lang) {
+        if ($site_lang == NULL) {
             $site_lang = 'thai'; //Default set language to Thai
         }
         foreach ($this->lang_value as $path) {
             $this->lang->load($path, $site_lang); //Load message
         }
-        
+
         //Load version for Cache CSS and JS
         $data['version'] = $this->version;
 
