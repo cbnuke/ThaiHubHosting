@@ -61,9 +61,9 @@
                             <div class="text">คุ้มค่า</div>
                         </div>
                         <div class="my_planTitle">Mini</div>
-                        <div class="my_planPrice">฿650 / ปี</div>
+                        <div class="my_planPrice">฿700 / ปี</div>
                         <div class="my_planDuration">&nbsp;</div>
-                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=1" type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=5" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                     <div class="col-md-3 my_planHeader my_plan2">
@@ -71,23 +71,23 @@
                             <div class="text">ขายดี</div>
                         </div>
                         <div class="my_planTitle">Small</div>
-                        <div class="my_planPrice">฿1,350 / ปี</div>
+                        <div class="my_planPrice">฿1,500 / ปี</div>
                         <div class="my_planDuration">โดเมนเนมฟรี 1 ปี</div>
-                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=2" type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=6" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                     <div class="col-md-3 my_planHeader my_plan3">
                         <div class="my_planTitle">Medium</div>
-                        <div class="my_planPrice">฿2,600 / ปี</div>
+                        <div class="my_planPrice">฿2,700 / ปี</div>
                         <div class="my_planDuration">โดเมนเนมฟรี 1 ปี</div>
-                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=3" type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=7" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                     <div class="col-md-3 my_planHeader my_plan4">
                         <div class="my_planTitle">Large</div>
-                        <div class="my_planPrice">฿4,950 / ปี</div>
+                        <div class="my_planPrice">฿5,500 / ปี</div>
                         <div class="my_planDuration">โดเมนเนมฟรี 1 ปี</div>
-                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=4" type="button" class="btn btn-default"><span
+                        <a href="https://www.thaihubhosting.com/customer/cart.php?a=add&pid=8" type="button" class="btn btn-default"><span
                                 class="glyphicon glyphicon-shopping-cart"></span>สั่งซื้อ</a>
                     </div>
                 </div>
@@ -98,16 +98,16 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="text">5GB</span>
+                        <span class="text">3GB</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="text">10GB</span>
+                        <span class="text">5GB</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="text">20GB</span>
+                        <span class="text">7GB</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="text">40GB</span>
+                        <span class="text">10GB</span>
                     </div>
                 </div>
             </div>
@@ -117,16 +117,16 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
-                        <span class="text">30GB/เดือน</span>
+                        <span class="text">20GB/เดือน</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="text">150GB/เดือน</span>
+                        <span class="text">40GB/เดือน</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="text">750GB/เดือน</span>
+                        <span class="text">150GB/เดือน</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="text">ไม่จำกัด</span>
+                        <span class="text">300GB/เดือน</span>
                     </div>
                 </div>
             </div>
@@ -139,13 +139,13 @@
                         <span class="text">1</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan2">
-                        <span class="text">3</span>
+                        <span class="text">1</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="text">6</span>
+                        <span class="text">2</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="text">9</span>
+                        <span class="text">2</span>
                     </div>
                 </div>
             </div>
@@ -202,10 +202,10 @@
                         <span class="text">4</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan3">
-                        <span class="text">ไม่จำกัด</span>
+                        <span class="text">8</span>
                     </div>
                     <div class="col-md-3 my_planFeature my_plan4">
-                        <span class="text">ไม่จำกัด</span>
+                        <span class="text">16</span>
                     </div>
                 </div>
             </div>
@@ -323,7 +323,7 @@
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-12 my_planFeature all_plan">
-                        <span class="text">CentOS 6.6</span>
+                        <span class="text">CentOS 6.9</span>
                     </div>             
                 </div>
             </div>
@@ -339,7 +339,7 @@
             </div>
         </div>
         <div class="row my_featureRow">
-            <div class="col-md-2 my_feature">PHP 5.4</div>
+            <div class="col-md-2 my_feature">PHP 7.2</div>
             <div class="col-md-10">
                 <div class="row">
                     <div class="col-md-3 my_planFeature my_plan1">
